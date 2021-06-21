@@ -3,14 +3,17 @@ na Fakulteti za matematiko in fiziko, Univerza v Ljubljani.
 
 Za projekt bom uporabila računalniški program ***Mathematica***.
 
-# Zdravljenje anoreksije
+# Prebivalstvo Slovenije
 
-V tem projektu bom analizirala podatke o spremembi teže pri mladih ženskah, ki se zdravijo zaradi anoreksije. 
+V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad prebivalstva med leti 2008 - 2021. 
 
 ## Načrt projekta
-1. Pridobivanje podatkov iz **Wolfram data repository**
-2. Internet - dodatni podatki: zapis novih podatkov 
+1. Pridobivanje podatkov iz **STATISTIČNEGA URADA REPUBLIKE SLOVENIJE**
+2. Analiza podatkov glede na spol in čas - narisala bom graf.
+3. Analiza podatkov glede na Državljane RS in tuje državljane - narisala bom dva grafa, ki delita upad Državljanov RS in rast tujih državljanov.
+5. Videoposnetek - pripravila bom videoposnetek kratke predstavitve projekta.
 
-Opomba: Ta načrt je le "ogrodje".
+## Videoposnetek predstavitve
+ 
 
 Pripravia: *Vanja Stanojević*
