@@ -13,7 +13,7 @@ V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad pr
 3. Analiza podatkov glede na Državljane RS in tuje državljane - narisala bom dva grafa, ki delita upad Državljanov RS in rast tujih državljanov.
 5. Videoposnetek - pripravila bom videoposnetek kratke predstavitve projekta.
 
-## Videoposnetek predstavitve
+## Videoposnetek predstavitve:
+https://youtu.be/5psbLCwgY00
  
-
 Pripravia: *Vanja Stanojević*
