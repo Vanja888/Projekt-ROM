@@ -10,7 +10,7 @@ V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad pr
 ## Načrt projekta
 1. Pridobivanje podatkov iz **STATISTIČNEGA URADA REPUBLIKE SLOVENIJE**
 2. Analiza podatkov glede na spol in čas - narisala bom graf.
-3. Analiza podatkov glede na Državljane RS in tuje državljane - narisala bom dva grafa, ki delita upad Državljanov RS in rast tujih državljanov.
+3. Analiza podatkov glede na državljane RS in tuje državljane - narisala bom dva grafa, ki delita upad Državljanov RS in rast tujih državljanov.
 5. Videoposnetek - pripravila bom videoposnetek kratke predstavitve projekta.
 
 ## Videoposnetek predstavitve:
