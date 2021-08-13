@@ -17,9 +17,9 @@ V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad pr
 7. Videoposnetek - pripravila bom videoposnetek kratke predstavitve projekta.
 
 ## Aplikacija v oblaku:
-https://www.wolframcloud.com/obj/eb88850a-d15a-4f2d-a6c2-a09d558bb816
+https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db
 
 ## Videoposnetek predstavitve:
-https://youtu.be/5psbLCwgY00
+https://youtu.be/pxDvGyVzios
  
 Pripravia: *Vanja Stanojević*
