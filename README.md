@@ -22,4 +22,4 @@ https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db
 ## Videoposnetek predstavitve:
 https://youtu.be/pxDvGyVzios
  
-Pripravia: *Vanja Stanojević*
+Pripravila: *Vanja Stanojević*
