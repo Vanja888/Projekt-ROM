@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    298482,       5862]
-NotebookOptionsPosition[    295589,       5802]
-NotebookOutlinePosition[    296112,       5821]
-CellTagsIndexPosition[    296069,       5818]
+NotebookDataLength[    443435,       9197]
+NotebookOptionsPosition[    434841,       9041]
+NotebookOutlinePosition[    435361,       9060]
+CellTagsIndexPosition[    435318,       9057]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,12 +21,13 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell[TextData[{
- StyleBox["Prebivalstvo Slovenije", "Title"],
- "\nAnaliza prebivalstva Slovenije glede na razli\[CHacek]ne dejavnike."
+ StyleBox["Prebivalstvo Slovenije in drugih dr\[ZHacek]av", "Title"],
+ "\nAnaliza prebivalstva Slovenije in drugih dr\[ZHacek]av glede na razli\
+\[CHacek]ne dejavnike."
 }], "Subtitle",
  CellChangeTimes->{{3.831557491644536*^9, 3.831557550870331*^9}, {
-  3.8315575816419864`*^9, 
-  3.831557611011858*^9}},ExpressionUUID->"4160f1c1-a24a-499d-88f4-\
+  3.8315575816419864`*^9, 3.831557611011858*^9}, {3.837970611825996*^9, 
+  3.837970632472309*^9}},ExpressionUUID->"4160f1c1-a24a-499d-88f4-\
 102f3325b18d"],
 
 Cell[CellGroupData[{
@@ -68,7 +69,7 @@ prebivalstvoSlo.xlsx\>\"", ",", "\"\<Dataset\>\"", ",",
   3.8332738072315574`*^9}, {3.833273841209066*^9, 3.8332738575281096`*^9}, {
   3.833274097999222*^9, 3.8332741164581423`*^9}, {3.8332852768319206`*^9, 
   3.833285279519621*^9}},
- CellLabel->"In[40]:=",ExpressionUUID->"46a00b91-5f3b-40aa-bd27-48bc30f61979"],
+ CellLabel->"In[1]:=",ExpressionUUID->"46a00b91-5f3b-40aa-bd27-48bc30f61979"],
 
 Cell[BoxData[
  TagBox[
@@ -427,7 +428,7 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 52], "Meta" -> 
-     Association["ID" -> 218029955594288], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 176824044031024], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "Obdobje "} -> 1, {All, "Spol - SKUPAJ (DRS)"} -> 
         1, {All, "Mo\[SHacek]ki (DRS)"} -> 
@@ -3274,13 +3275,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{798., {254.5, 260.5}},
+      ImageSizeCache->{832., {267., 273.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{798., {254.5, 260.5}}],
+     ImageSizeCache->{832., {267., 273.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -3296,8 +3297,11 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{{3.833285281244398*^9, 3.833285305284545*^9}, 
    3.833286547827896*^9, 3.8332868491142497`*^9, 3.833295701328992*^9, 
-   3.833296143955552*^9},
- CellLabel->"Out[40]=",ExpressionUUID->"7cb952f8-f9d9-4d9d-b678-72b02453e664"]
+   3.833296143955552*^9, 3.8333001069044476`*^9, 3.836287354045804*^9, 
+   3.8362876343205814`*^9, 3.8362877143999043`*^9, 3.8362884315066447`*^9, 
+   3.8362910892323866`*^9, 3.8362926264673223`*^9, 3.8363783785048604`*^9, 
+   3.836837121307459*^9, 3.837866514897835*^9, 3.837970705139429*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"91c387be-74f8-449e-8caa-d7df452c7001"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3312,15 +3316,15 @@ Cell["\<\
 Analizirala in narisala bom graf \[SHacek]tevila prebivalcev Slovenije glede \
 na spol - za Dr\[ZHacek]avljane Republike Slovenije in \[SHacek]e za Tuje dr\
 \[ZHacek]avljane.  Z grafom je lepo prikazano, katerega spola je ve\[CHacek] \
-in katerega manj, po letu katerega si izberemo od 2008 - 2021.\
+in katerega manj, po letu katerega si izberemo od 2009 - 2021.\
 \>", "Text",
  CellChangeTimes->{{3.8315581318948154`*^9, 3.8315582570574384`*^9}, {
    3.8315583026842175`*^9, 3.831558314128029*^9}, {3.8315586806175733`*^9, 
    3.8315587225406094`*^9}, {3.83155876130727*^9, 3.831558766578374*^9}, {
    3.831559075809512*^9, 3.8315591679326515`*^9}, 3.831559266041602*^9, 
    3.831560223497918*^9, {3.8332957202810116`*^9, 3.833295727857665*^9}, {
-   3.8332957981113873`*^9, 
-   3.833295845057646*^9}},ExpressionUUID->"0a495003-a099-4dce-beec-\
+   3.8332957981113873`*^9, 3.833295845057646*^9}, {3.8333026266049323`*^9, 
+   3.833302627583413*^9}},ExpressionUUID->"0a495003-a099-4dce-beec-\
 76fab490e7d9"],
 
 Cell[BoxData[
@@ -3351,24 +3355,35 @@ Cell[BoxData[
       "\"\<M - DRS\>\"", ",", "\"\<\[CapitalZHacek] - DRS\>\"", ",", 
        "\"\<M - tujci\>\"", ",", "\"\<\[CapitalZHacek] - tujke\>\""}], 
       "}"}]}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.8332956112008276`*^9, 3.8332956620514207`*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"cb97d429-2aa4-4c2b-b89d-2f636f0f76f4"],
+ CellChangeTimes->{{3.8332956112008276`*^9, 3.8332956620514207`*^9}, {
+  3.8362875558254986`*^9, 3.836287565830042*^9}, {3.836287611259031*^9, 
+  3.836287620866762*^9}, {3.836287682274315*^9, 3.836287694022046*^9}, {
+  3.8362884406748686`*^9, 3.836288448479452*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"cb97d429-2aa4-4c2b-b89d-2f636f0f76f4"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"LetniPrikazPoKategorijah", "[", "2015", "]"}]], "Input",
+ RowBox[{"LetniPrikazPoKategorijah", "[", "2019", "]"}]], "Input",
  CellChangeTimes->{{3.833295678760065*^9, 3.833295679678791*^9}, {
-  3.833295767365991*^9, 3.833295779877602*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"74a67686-f238-4c17-8f9b-14c9cd883d43"],
+  3.833295767365991*^9, 3.833295779877602*^9}, {3.8333014656042457`*^9, 
+  3.8333014760549545`*^9}, {3.8333017394680033`*^9, 3.833301755152443*^9}, {
+  3.8333023369039607`*^9, 3.833302346594218*^9}, {3.833302583197708*^9, 
+  3.83330263170971*^9}, {3.833302734658785*^9, 3.8333027451718197`*^9}, {
+  3.8333029030114527`*^9, 3.8333029439308467`*^9}, {3.8378672551782603`*^9, 
+  3.8378672565264463`*^9}, {3.8378677705690594`*^9, 3.837867772100396*^9}, {
+  3.837867997407577*^9, 3.837868016581482*^9}, {3.837868152535161*^9, 
+  3.8378681538623104`*^9}, {3.8378693125231714`*^9, 3.8378693186860495`*^9}, {
+  3.837869412475601*^9, 3.8378694140503454`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"74a67686-f238-4c17-8f9b-14c9cd883d43"],
 
 Cell[BoxData[
  TemplateBox[{
    Graphics3DBox[
     DynamicModuleBox[{
-     DynamicChart`click$22821$22954 = False, DynamicChart`click$22843$22954 = 
-      False, DynamicChart`click$22865$22954 = False, 
-      DynamicChart`click$22881$22954 = False}, {{
+     DynamicChart`click$4954$5144 = False, DynamicChart`click$4985$5144 = 
+      False, DynamicChart`click$5007$5144 = False, 
+      DynamicChart`click$5023$5144 = False}, {{
        Directive[
         RGBColor[0.5, 0.5, 1.], 
         EdgeForm[
@@ -3397,75 +3412,73 @@ Cell[BoxData[
                     0.6666666666666666], 
                     AbsoluteThickness[1.5]}], {}, {}], {
                     Polygon3DBox[CompressedData["
-1:eJztl21QVGUUx9cFxHgJpYB4GxZkojFarUUTdDymUqARxqgzWYsmkeFEiMU2
-jY6MjtZMEylIIjANEIQQOIDoB5ziUXnZXRpeRFxwkVd3l92FZU9FKBRs2wee
-O9OcPvSlT3tm7syd3/107z3P+f9O6KGMpFQnkUgktl/J9uvve0c5ylGO+n8K
-mes7T8uerSzbvETCdqz9ocxqZXFBsq19kfWwxCW6/MMFzVbmjuKIr8Nvcj6l
-vJjyVLqVdcnTj0nDVJwPN90Tp/0xzVpc88LOOfVwnuk3lONxZJqpVy6u+l5/
-l/MnaiNv5DVZ2MrbCo+Djf2cb0jz9a43T7HZPDQNfjDI+UiJ++aNi5Mstztz
-d4J4hPOBK75hwb+b2ekufYd4yxjnvuXJ8+k9JjbnuvDKJtM45xrPqy/uyzWy
-+weeWww4peO8qz0qOih6glUVD90QORs4Hw0+slGi1rOC9VB98OgE5+2ev1Ro
-t+lYsm6FS3urkXMP15Rb2svjrLPOlNtnM3F+780R57a5UfY4o80WL5nkXK5U
-3//uk2FWtTUzyhY+xXnHR6mKCxotU+UXfmbysHC+Jn52m1dwP6vw+jYnsF/g
-pYV5Tfpdd1mCKPZi++lpzqVfhLotdHaxzrUpMzFeVs7XT9c61+jaWdaZE4+M
-xwVeb5lv1Cp/Yp/Wqo6+qxK4uGPVg+7EGpaWjuH7ZgQekwRBAevOQMMm36Ai
-m8BbI+bOv9VwFY5H93eHmgXeUrAnQvXeLZj4yudlp2sCT3iyfN0zB9RQvZBd
-lyUXeN3O7Lamkh4waiytdwzCe/n9uP+6/mQfKGwqzfndAq++7Wn0jx+A1Jnx
-4teLhe/j/XbInaz5QVhxRXa2WSl8Z3+fB2+8dG4EGuJWi5hG+C+yx8MtvafG
-4M8iSeEOtZnzyEbrntVrHkKp/2HboVLh/065JbUONOugN2rWHC8X+sHH/Zjb
-3i0GeFim1W9fJvRPTtVyjdflCahSuM5fy9Fznij5MPjSIyPsXe4f6+8s9Kdv
-xguXvpGa4YRE8bHT+0I/V1bGhHTsnITys/LwwOujnBd2pvzqvWsKmpe5ZW4w
-DAnnKPHnsTSpBTxc3ANKt2s5VzaG7Df8ZoFXTyrjnv9cI/Rn5JdJzUXT0B0r
-za5p6OX8Zkly4GthVpBFuFT45XdyThf+y3MHd3AHd/D/zun5g0DPKwR6viHQ
-8xCBnp8I9LxFoOczAj3PEej5j0DnBQKdLwh0HiHQ+YVA5x0CnY8IdJ4i0PmL
-QOc1Ap3vCLQPIND+gED7BgLtJwi0zyDQ/oNA+xIC7VcItI8h0P5m70/S9xBo
-P0SgfRKB9k8E2lcRaL9FoH3Y3s+kPyPQvm0/R6SfI9A+j0D7PwK9LyDQ+4X9
-XJD7CAK9vyDQ+87SnPnnfoTwF90xe+c=
+1:eJztl21MW2UUxzvAsYU4hhkzyAKiMingyyiRRNiOg7jEWRiZ1oylZNCFdI4t
+FNQFNFgExxqJvARnJunEMVbpIlLY5l5wfTZCBYzTFtfxUpBSKG8t7dFtghOn
++IHnJubsmx97kps0v/up9z73//+dKEXB7jx/kUjkt3zJl69/f/vGN77xzf87
+yALlGySbdadSVohl257tKq+XKfuqsqJfNsAK//zcrLj/qpe9n4qGyynXOHf/
+WROale9l7GJC+CM7ejm3yTIVexc9bLDH/Vx0uJnzLP3So+l5HpZ5TvPucb+b
+nN+T3T/U1zHP3jgddXCXdYDzj9N7YzTjbjbTaXNl19g4N9bWT+b+5mLSTa53
+nPFjnBsC4+MypuaY2+7w2yAb53yu50KxwjjLwlUOdfeqCc4TRG+HW96bYRVf
+hB3pbZjkXDR45ffpyGl2z+9uZXHEFOdrC18XB3/lZOMlCmVa1TTn+u+MJ3qi
+Jtk6zRZ129gM5+rUboW+3MEGbroK5I/Ncf7ZgaAkhdnOymV1HwS86OJ8tfFM
+ojLsFxZYb7xdutXNeWmONNZRNMweCrFv+fbJec7l5qHGJcMtVmeRzJpdAq/B
+upSGgX7WlFDyt/sTD+eP74n1HrbeYIk3dr2ZG+Hl3GNNRtOIicUVKscajwn8
+brKi4o+GTpbaYSpMNgu8LK1C1sJ0bN9xzeLMgsC7uuN75dp6qNW156rvCzw0
+2JbvjbkA7b+22BYmBB7UHJmhOtsFkyOvjhxuEXhHirR7Y+v3cPTTsoBIqcBv
+LRzaun6nBU6U59sP/iT8r87isvNtcVbY3ab5sD9B4ObsmFfyFgZhrC14zeIR
+4flId3ji0vQj0C+OHz2pFZ7z1fPazZ0Rdgi7dilQ1yy8l8vrssXRg+NwxSCV
+hNQK7zExrPKbjeoJKEuv1v+1b5bz1tU/BAyHOCEoc1SsCxXOQ/XFgmd/rJ6C
+WNOx0zkdwrnKmzLZD9yZhsq+4Z+1SU7OmSrnTtL2Wfi6qLTPoRPOreolidvx
+1hzInI0ZllUOzp/ZFrM3vsoFJV82JW/aaed8zQvtT98+6oal553KUP9Rzhfr
+/a9L9s+Ddv3QybnXhjgvSumNWvuEB5qfysnWfGTlHPaLu1qve6Ap5tLDw2ct
+wvdCDj7gvo/7uI/7+IM5nTMIdC4h0DmGQOceAp2TCHSuItA5jEDnNgKd8wh0
+LyDQPYJA9w4C3VMIdK8h0D2IQPcmAt2zCHQvI9A9jkD3PgLtCQi0VyDQHoJA
+ewsC7TkItBch0B6FQHsXAu1pCLTXIdAeiEB7IwLtmcvfC+mlCLTHItDei0B7
+MgLt1Qi0hyPQ3o5Aez4CvRcg0HsEAr13INB7ykqe/HevQfgH39R91Q==
                     "]], 
                     
-                    BSplineSurface3DBox[{{{0.9729342970431318, 
-                    0.23108191975398426`, 0.}, {0.7418523772891475, 
-                    1.204016216797116, 0.}, {-0.23108191975398426`, 
-                    0.9729342970431318, 0.}, {-0.9999999999999999, 
-                    0.7903083307710019, 0.}, {-1., 5.551115123125783*^-17, 
-                    0.}}, {{0.9729342970431318, 0.23108191975398426`, 1}, {
-                    0.7418523772891475, 1.204016216797116, 
-                    1}, {-0.23108191975398426`, 0.9729342970431318, 
-                    1}, {-0.9999999999999999, 0.7903083307710019, 1}, {-1., 
-                    5.551115123125783*^-17, 1}}}, SplineDegree -> {1, 2}, 
+                    BSplineSurface3DBox[{{{0.9611424247951631, 
+                    0.27605296458990314`, 0.}, {0.68508946020526, 
+                    1.2371953893850662`, 0.}, {-0.27605296458990314`, 
+                    0.9611424247951631, 0.}, {-1., 0.7532151497364017, 
+                    0.}, {-1., 5.551115123125783*^-17, 
+                    0.}}, {{0.9611424247951631, 0.27605296458990314`, 1}, {
+                    0.68508946020526, 1.2371953893850662`, 
+                    1}, {-0.27605296458990314`, 0.9611424247951631, 1}, {-1., 
+                    0.7532151497364017, 1}, {-1., 5.551115123125783*^-17, 
+                    1}}}, SplineDegree -> {1, 2}, 
                     SplineWeights -> {{1., 0.7071067811865475, 1., 
-                    0.7845641846764305, 1.}, {1., 0.7071067811865475, 1., 
-                    0.7845641846764305, 1.}}, 
+                    0.7987655990933458, 1.}, {1., 0.7071067811865475, 1., 
+                    0.7987655990933458, 1.}}, 
                     SplineKnots -> {{0, 0, 1, 1}, {0, 0, 0, 1, 1, 2, 2, 2}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 1.}, {
-                    0.9729342970431318, 0.23108191975398426`, 1.}, {
-                    0.9729342970431318, 0.23108191975398426`, 0.}}}], 
+                    0.9611424247951631, 0.27605296458990314`, 1.}, {
+                    0.9611424247951631, 0.27605296458990314`, 0.}}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 1.}, {-1., 
                     1.2246467991473532`*^-16, 1.}, {-1., 
                     1.2246467991473532`*^-16, 0.}}}]}}], 
-                    "DelayedMouseEffectStyle"], StatusArea[#, 954877.]& , 
-                   TagBoxNote -> "954877."], 
-                  StyleBox["954877.`", {
+                    "DelayedMouseEffectStyle"], StatusArea[#, 947826.]& , 
+                   TagBoxNote -> "947826."], 
+                  StyleBox["947826.`", {
                     GrayLevel[0], "Graphics3DLabel"}, StripOnInput -> False]],
                   Annotation[#, 
-                  Style[954877., {
+                  Style[947826., {
                     GrayLevel[0], "Graphics3DLabel"}], "Tooltip"]& ], 
                 
                 EventHandlerTag[{
-                 "MouseClicked" :> 
-                  FEPrivate`Set[DynamicChart`click$22821$22954, 
-                    FEPrivate`Not[DynamicChart`click$22821$22954]], 
+                 "MouseClicked" :> FEPrivate`Set[DynamicChart`click$4954$5144, 
+                    FEPrivate`Not[DynamicChart`click$4954$5144]], 
                   PassEventsDown -> True, Method -> "Preemptive", 
                   PassEventsUp -> True}]], 
                Dynamic[
                 FEPrivate`If[
-                DynamicChart`click$22821$22954, {{{1., 0., 0.}, {0., 1., 
-                  0.}, {0., 0., 1.}}, {-0.023266156948180374`, 
-                  0.19864210515613914`, 0.}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 
-                 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}], 
-                TrackedSymbols :> {DynamicChart`click$22821$22954}]], 
+                DynamicChart`click$4954$5144, {{{1., 0., 0.}, {0., 1., 0.}, {
+                  0., 0., 1.}}, {-0.027877437186670125`, 0.19804759149230589`,
+                   0.}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1,
+                  0}, {0, 0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$4954$5144}]], 
               "DelayedClickEffect3D"]}, {
              Directive[
               EdgeForm[
@@ -3489,76 +3502,75 @@ XJD7CAK9vyDQ+87SnPnnfoTwF90xe+c=
                     0.6666666666666666], 
                     AbsoluteThickness[1.5]}], {}, {}], {
                     Polygon3DBox[CompressedData["
-1:eJztl21QVGUUxxFCmSCaHQIxnVpQMRgjUEbEoc4MERaUoQJNxjaxa1gzQTYw
-mIA6VEAw5RpijfgSMEQoog2ESTr7BAWMhLwti7u0Ibu87cLCPRBvwiy1fvC5
-fTjf68OemTtz5zf3w733OXP+v+Mj/3Dfu04ODg6Otktuux7c28te9rLX/60a
-v317/W5fATZuca5YW3wHHnJHj/Nx2kIB1kTrKqe/auY8cOT6THaPAPsvbC1R
-zvzM+fFg5bPjiwIUBBWE7Yj+jvPElGnTglWAy94DWXfvfM0ect+M9IFSgwB1
-EbJ0j9XXOa/duFzuWCFArHPakk76K+dHS9X5spcEkE0c1dYG/M65qbH4jSda
-psDzI6O/9xfdnM+l/z1V7TcFxopSx7zDGs5/M7xe23ZoEla8wFD0go7zShfl
-vdBCCwTFZbtFzeg5H/UtUfWfnIBhL38/w4uDnO/Q37jWkDEOrj4R9yusBs5T
-5ap19yPMoMnxSSqrGOL8J3/1zv7ZMZg1HdJtCB3hfHBpc2fDl6PQVFUSmVY3
-yrlLjPGG++MjMDtXVb7W28T5Yd3Ywfcyh2D+eOy1Mwoz5w4O+u0p3QZw6vwh
-+XTxuPi8eTfTeg6CYuhIas+lCc5bVU97zhbp4fxfgfLgcgvn+kf2gEKvBc2p
-V1fVZE9yvu62sO2eqwZyOrqeT9o5xXlU4PpwxeZukFpjAwp7RV7anhzgdKAN
-zh3LbPksVuAclI/uUb3WBFdCQi91Vov8dJdScyvxR6h3bsp3HRV5q/KbdsH3
-FOTHP3V2eUXklamfq+cuVrHHmgo1ufMibyg+s0tbcoud6L0iqWsXeXzuc9Nb
-D7aw5r1vzl3NEblzTeKRk4oOZm117Gj1FHlf1+qOcz5q1my2hqcWiN/V+07X
-9o+tfezTNdONIX+K/6d+XvZKfGM/uy0z+3RKRN5TkrEQ+f4Ay+2rr5Y8I/7n
-bcG/+N1cHGTsyZgDKBXPJWL8ompDtZHJo7z7jlnF8x29vKRbFT3M9ksSEsZV
-Yj80bTqR3KAeYfKrWYpPksfE/pmZ+KAqaoyF927KrpkT+63M6qaKKTOxYlBf
-sKQMcx6wZTAvzGhmUplHnbbLyLnXyxFtvi4TLKzoe5NUKvZ5XtJZVa/EwloS
-hD7JzQHx3Ofd3XetWJhrWohvh+cfnAt73Rbfap9kQQutusi4u5xnF7btU2RN
-MYtyuTIpU/2vfqYKwc7t3M7t/L/i9LxCoOcbAj0PEej5iUDPWwR6PiPQ8xyB
-nv8IdF4g0PmCQOcRAp1fCHTeIdD5iEDnKQKdvwh0XiPQ+Y5A+wAC7Q8ItG8g
-0H6CQPuM7dxJ/0GgfQmB9isE2sds70n6GwLtew/6mfJD2/OkT9r6h/RPBNpX
-EWi/RaB9GIH2Z1sfkr5tOy/SzxFon0eg/R+B3hcQ6P0Cgd5HEOj9BYHedxDo
-/QiB3qcQ6P0Lgd7XEP4BjIL0MQ==
+1:eJztl2tQlGUUxxkwmGBNK8ZRiDZoYFoDTCGv5Yllwhkuzo6URq7QoKBoozAW
+KxdLURxLbk5UJJCxSg0QEURkTPZskAESC8hFZUVA1l1gWd6zLQmiDG0ffN4v
+52vTlz0z78w7v0/PPJfz/x3v+EPbEpwcHBwcbd87tu/ff3vZy172+r8Kdsua
+qn+bAvULlxYPVHbDIz5/Z9e4q1yAshWp4aV72zk/uWNtYmOZAGfie5YMK5s5
+D73l8dJbwwIUJz880JbRwHll+fUu9bwAX8s2nn79iyLOj1ySVGTcF8DnD5Wz
+7MBF9ogPnly91NgjwNxr25dqTzVyHmd2VUhyBVio9/Dyi73CeeyRooyXfQUw
++hvS8uI7OK8tueDdWTIF3ydu3SC9eI1zT6lct3faDMfdTr+SfqKf81C/poYa
+fzO8e3DtUETEAOeqoeIPVWGT8OCo15tfzQxy/o1Upq+Rm2BxfvoWRdMw5/Jg
+l/R9PhNQuPIpaYTqDufPWmRqrWEMNLulupnles6TOluj/M8aYZng0VtWfpfz
+4uOHyg0+BpAdq4qp9DRy/lnRuU8yS/UgWRO45+O0Mc41hYnB2Y6jgAtZAb2X
+xzn3umt98bvoEdCYU2qCjROcZ+SlXT3sOwQ7PVc4vz9t4lyyLiH1QZYOfDdY
+6jP0k5wvmvR6RtN8HSoK3TuiGsycL9fW5X5r6oGbyz61Lkma4jw5tN//zHwn
+hPylDXN5KPJV61PzIhxbQSNv9T53UOC82tpfq9cx2BPb/YtCI3Kvneyjludr
+4NTE5co+FHleoSklW5LE9rUHrbm3IPKc+9UlA961LK6gLkttFrkqQGn9oV7D
+lJOeV8w/i/zG9oZcp5ZWZrBUuTyRIHK3Ha9O/xjXxfY7pT6mFMT192RXWNrD
+e9mmnLK2bTEiD9kf5l713A3WnNkSmH9B3J+ClNu3FYM6VrdoZmOnVtzPOXfH
+oL7MIeYxJ4mx6MT9z1JEBv10dIQ9XRqQbG0Xz+veqo6SxpWjbFYbPWA5L55v
+V8BYdH2znj2+2W2TX4x4H279HtU2G2Zgb0flrDPMGjiv/EAltdYZ2XsnCp5U
+HxPv2xa5qdvPeZxFGt7wG7WMcq6PcQ1dDROsQqOMDt8q3ufCyD8D25Umtv5X
+tTzvc/H+58+OOFzdNcn6/l4A65fie5nfrJN4h5jZ+QnF4WvCTc7pQrBzO7dz
+O/+vOd2XEOg+hkD3PQS6TyLQfRWB7sMIdN9GoPs8Ap0LCHSOINC5g0DnFAKd
+awh0DiLQuYlA5ywCncsIdI4j0LmPQHsCAu0VCLSHINDegkB7DgLtRQi0RyHQ
+3mVbP+lpCLTXIdAeiEB7IwLtmQi0lyLQHotAe6/tHElPRqC9GoH2cATa2xFo
+z0eg5wIEeo5AoOcO23sk5xTb+sm5BoGeg2z9hJybEOg5C+EftX/RPw==
                     "]], 
                     
-                    BSplineSurface3DBox[{{{-0.9525620095267437, \
--0.30434457117939817`, 0.}, {-0.6482174383473456, -1.256906580706142, 0.}, {
-                    0.30434457117939817`, -0.9525620095267437, 0.}, {
-                    1.187076030918343, -0.6705283729824021, 0.}, {
-                    0.972934297043132, 0.23108191975398434`, 
-                    0.}}, {{-0.9525620095267437, -0.30434457117939817`, 
-                    1}, {-0.6482174383473456, -1.256906580706142, 1}, {
-                    0.30434457117939817`, -0.9525620095267437, 1}, {
-                    1.187076030918343, -0.6705283729824021, 1}, {
-                    0.972934297043132, 0.23108191975398434`, 1}}}, 
+                    BSplineSurface3DBox[{{{-0.9142003298856874, \
+-0.4052625776418299, 0.}, {-0.5089377522438576, -1.3194629075275173`, 0.}, {
+                    0.4052625776418299, -0.9142003298856874, 0.}, {
+                    1.2016076967803164`, -0.5611826540827182, 0.}, {
+                    0.961142424795163, 0.27605296458990314`, 
+                    0.}}, {{-0.9142003298856874, -0.4052625776418299, 
+                    1}, {-0.5089377522438576, -1.3194629075275173`, 1}, {
+                    0.4052625776418299, -0.9142003298856874, 1}, {
+                    1.2016076967803164`, -0.5611826540827182, 1}, {
+                    0.961142424795163, 0.27605296458990314`, 1}}}, 
                     SplineDegree -> {1, 2}, 
                     SplineWeights -> {{1., 0.7071067811865475, 1., 
-                    0.7334805428820753, 1.}, {1., 0.7071067811865475, 1., 
-                    0.7334805428820753, 1.}}, 
+                    0.7540382434795316, 1.}, {1., 0.7071067811865475, 1., 
+                    0.7540382434795316, 1.}}, 
                     SplineKnots -> {{0, 0, 1, 1}, {0, 0, 0, 1, 1, 2, 2, 2}}], 
+                    
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
-                    1.}, {-0.9525620095267437, -0.30434457117939817`, 
-                    1.}, {-0.9525620095267437, -0.30434457117939817`, 0.}}}], 
+                    1.}, {-0.9142003298856874, -0.4052625776418299, 
+                    1.}, {-0.9142003298856874, -0.4052625776418299, 0.}}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 1.}, {
-                    0.972934297043132, 0.23108191975398382`, 1.}, {
-                    0.972934297043132, 0.23108191975398382`, 0.}}}]}}], 
-                    "DelayedMouseEffectStyle"], StatusArea[#, 1.006465*^6]& , 
-                   TagBoxNote -> "1.006465*^6"], 
-                  StyleBox["1.006465`*^6", {
+                    0.9611424247951631, 0.27605296458990314`, 1.}, {
+                    0.9611424247951631, 0.27605296458990314`, 0.}}}]}}], 
+                    "DelayedMouseEffectStyle"], StatusArea[#, 994889.]& , 
+                   TagBoxNote -> "994889."], 
+                  StyleBox["994889.`", {
                     GrayLevel[0], "Graphics3DLabel"}, StripOnInput -> False]],
                   Annotation[#, 
-                  Style[1.006465*^6, {
+                  Style[994889., {
                     GrayLevel[0], "Graphics3DLabel"}], "Tooltip"]& ], 
                 
                 EventHandlerTag[{
-                 "MouseClicked" :> 
-                  FEPrivate`Set[DynamicChart`click$22843$22954, 
-                    FEPrivate`Not[DynamicChart`click$22843$22954]], 
+                 "MouseClicked" :> FEPrivate`Set[DynamicChart`click$4985$5144, 
+                    FEPrivate`Not[DynamicChart`click$4985$5144]], 
                   PassEventsDown -> True, Method -> "Preemptive", 
                   PassEventsUp -> True}]], 
                Dynamic[
                 FEPrivate`If[
-                DynamicChart`click$22843$22954, {{{1., 0., 0.}, {0., 1., 
-                  0.}, {0., 0., 1.}}, {
-                  0.05358139203976375, -0.19268895771963981`, 0.}}, {{1, 0, 
-                 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 
-                 1}}], TrackedSymbols :> {DynamicChart`click$22843$22954}]], 
+                DynamicChart`click$4985$5144, {{{1., 0., 0.}, {0., 1., 0.}, {
+                  0., 0., 1.}}, {0.06829307639585513, -0.1879788703987496, 
+                  0.}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 
+                 0}, {0, 0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$4985$5144}]], 
               "DelayedClickEffect3D"]}, {
              Directive[
               EdgeForm[
@@ -3582,51 +3594,50 @@ EWi/RaB9GIH2Z1sfkr5tOy/SzxFon0eg/R+B3hcQ6P0Cgd5HEOj9BYHedxDo
                     0.6666666666666666], 
                     AbsoluteThickness[1.5]}], {}, {}], {
                     Polygon3DBox[CompressedData["
-1:eJxTTMoPSmVmYGBgAmIOIAaxaQ1quk4FJVe/2/+m//eyxKrL+2Hi01k7IhqF
-3+9PE7hgt7njHFxc/5bCu/y29/tvlYhdl/xxFC4esOVrz9LL7/dniJ4vyJ21
-az+6Pajggz21xLHb+8Eeuzs/2GP31wd77OHwwR4Ag6lWlA==
+1:eJxTTMoPSmVmYGBgAmIuIAaxBwr8tbvNo+j4dv/8VwHFl97f3A8Tv3aIVeq3
+0Lv9myPdgvnuXYWLyz2/GLH8wLv9+a5HTv7eeBEu3qzx/XaI5/v9vrLMhfYP
+T8HFmaOSzOPXvN/fX/7Y0tDu0H4GvOCDPa3Fsbvngz1293+wx+7fD/bYw+eD
+Pfbw/GAPAHzjaAY=
                     "]], 
                     
-                    BSplineSurface3DBox[{{{-0.9945857766266588, \
--0.10391887668727906`, 0.}, {-0.9838890985527081, -0.20629453940273212`, 
-                    0.}, {-0.9525620095267437, -0.30434457117939817`, 
-                    0.}}, {{-0.9945857766266588, -0.10391887668727906`, 
-                    1}, {-0.9838890985527081, -0.20629453940273212`, 
-                    1}, {-0.9525620095267437, -0.30434457117939817`, 1}}}, 
+                    BSplineSurface3DBox[{{{-0.9897914964411146, \
+-0.14252295805539147`, 0.}, {-0.9701241705292963, -0.27910833497191695`, 
+                    0.}, {-0.9142003298856874, -0.4052625776418299, 
+                    0.}}, {{-0.9897914964411146, -0.14252295805539147`, 
+                    1}, {-0.9701241705292963, -0.27910833497191695`, 
+                    1}, {-0.9142003298856874, -0.4052625776418299, 1}}}, 
                     SplineDegree -> {1, 2}, 
-                    SplineWeights -> {{1., 0.9947441309183587, 1.}, {1., 
-                    0.9947441309183587, 1.}}, 
+                    SplineWeights -> {{1., 0.9906126725211981, 1.}, {1., 
+                    0.9906126725211981, 1.}}, 
                     SplineKnots -> {{0, 0, 1, 1}, {0, 0, 0, 1, 1, 1}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
-                    1.}, {-0.9945857766266588, -0.10391887668727906`, 
-                    1.}, {-0.9945857766266588, -0.10391887668727906`, 0.}}}], 
+                    1.}, {-0.9897914964411146, -0.14252295805539147`, 
+                    1.}, {-0.9897914964411146, -0.14252295805539147`, 0.}}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
-                    1.}, {-0.9525620095267437, -0.30434457117939817`, 
-                    1.}, {-0.9525620095267437, -0.30434457117939817`, 
-                    0.}}}]}}], "DelayedMouseEffectStyle"], 
-                   StatusArea[#, 67352.]& , TagBoxNote -> "67352."], 
-                  StyleBox["67352.`", {
+                    1.}, {-0.9142003298856874, -0.4052625776418299, 
+                    1.}, {-0.9142003298856874, -0.4052625776418299, 0.}}}]}}],
+                     "DelayedMouseEffectStyle"], StatusArea[#, 90830.]& , 
+                   TagBoxNote -> "90830."], 
+                  StyleBox["90830.`", {
                     GrayLevel[0], "Graphics3DLabel"}, StripOnInput -> False]],
                   Annotation[#, 
-                  Style[67352., {
+                  Style[90830., {
                     GrayLevel[0], "Graphics3DLabel"}], "Tooltip"]& ], 
                 
                 EventHandlerTag[{
-                 "MouseClicked" :> 
-                  FEPrivate`Set[DynamicChart`click$22865$22954, 
-                    FEPrivate`Not[DynamicChart`click$22865$22954]], 
+                 "MouseClicked" :> FEPrivate`Set[DynamicChart`click$5007$5144, 
+                    FEPrivate`Not[DynamicChart`click$5007$5144]], 
                   PassEventsDown -> True, Method -> "Preemptive", 
                   PassEventsUp -> True}]], 
                Dynamic[
                 FEPrivate`If[
-                DynamicChart`click$22865$22954, {{{1., 0., 0.}, {0., 1., 
-                  0.}, {0., 0., 
-                  1.}}, {-0.19574358125197222`, -0.04104205646227477, 0.}}, {{
-                 1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 
-                 0, 1}}], 
-                TrackedSymbols :> {DynamicChart`click$22865$22954}]], 
+                DynamicChart`click$5007$5144, {{{1., 0., 0.}, {0., 1., 0.}, {
+                  0., 0., 1.}}, {-0.1922034594490874, -0.055297650725894515`, 
+                  0.}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 
+                 0}, {0, 0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$5007$5144}]], 
               "DelayedClickEffect3D"]}, {
              Directive[
               EdgeForm[
@@ -3650,21 +3661,24 @@ az+6Pajggz21xLHb+8Eeuzs/2GP31wd77OHwwR4Ag6lWlA==
                     0.6666666666666666], 
                     AbsoluteThickness[1.5]}], {}, {}], {
                     
-                    Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
-                    0.}, {-0.9945857766266588, -0.10391887668727906`, 
+                    Polygon3DBox[{{{0., 0., 0.}, {0., 0., 0.}, {0., 0., 
+                    0.}, {-0.9897914964411146, -0.14252295805539147`, 
+                    0.}, {-0.99744460909895, -0.07144404649404086, 
                     0.}, {-1., -1.2246467991473532`*^-16, 0.}}, {{0., 0., 
-                    1.}, {0., 0., 1.}, {-1., -1.2246467991473532`*^-16, 
-                    1.}, {-0.9945857766266588, -0.10391887668727906`, 1.}}}], 
+                    1.}, {0., 0., 1.}, {0., 0., 
+                    1.}, {-1., -1.2246467991473532`*^-16, 
+                    1.}, {-0.99744460909895, -0.07144404649404086, 
+                    1.}, {-0.9897914964411146, -0.14252295805539147`, 1.}}}], 
                     
                     BSplineSurface3DBox[{{{-1., -1.2246467991473532`*^-16, 
-                    0.}, {-1., -0.052100480162368026`, 
-                    0.}, {-0.9945857766266588, -0.10391887668727906`, 
+                    0.}, {-1., -0.07162708168685183, 
+                    0.}, {-0.9897914964411146, -0.14252295805539147`, 
                     0.}}, {{-1., -1.2246467991473532`*^-16, 
-                    1}, {-1., -0.052100480162368026`, 
-                    1}, {-0.9945857766266588, -0.10391887668727906`, 1}}}, 
+                    1}, {-1., -0.07162708168685183, 
+                    1}, {-0.9897914964411146, -0.14252295805539147`, 1}}}, 
                     SplineDegree -> {1, 2}, 
-                    SplineWeights -> {{1., 0.9986455268579182, 1.}, {1., 
-                    0.9986455268579182, 1.}}, 
+                    SplineWeights -> {{1., 0.99744460909895, 1.}, {1., 
+                    0.99744460909895, 1.}}, 
                     SplineKnots -> {{0, 0, 1, 1}, {0, 0, 0, 1, 1, 1}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
@@ -3672,30 +3686,29 @@ az+6Pajggz21xLHb+8Eeuzs/2GP31wd77OHwwR4Ag6lWlA==
                     1.}, {-1., -1.2246467991473532`*^-16, 0.}}}], 
                     
                     Polygon3DBox[{{{0., 0., 0.}, {0., 0., 
-                    1.}, {-0.9945857766266588, -0.10391887668727906`, 
-                    1.}, {-0.9945857766266588, -0.10391887668727906`, 
+                    1.}, {-0.9897914964411146, -0.14252295805539147`, 
+                    1.}, {-0.9897914964411146, -0.14252295805539147`, 
                     0.}}}]}}], "DelayedMouseEffectStyle"], 
-                   StatusArea[#, 34180.]& , TagBoxNote -> "34180."], 
-                  StyleBox["34180.`", {
+                   StatusArea[#, 47363.]& , TagBoxNote -> "47363."], 
+                  StyleBox["47363.`", {
                     GrayLevel[0], "Graphics3DLabel"}, StripOnInput -> False]],
                   Annotation[#, 
-                  Style[34180., {
+                  Style[47363., {
                     GrayLevel[0], "Graphics3DLabel"}], "Tooltip"]& ], 
                 
                 EventHandlerTag[{
-                 "MouseClicked" :> 
-                  FEPrivate`Set[DynamicChart`click$22881$22954, 
-                    FEPrivate`Not[DynamicChart`click$22881$22954]], 
+                 "MouseClicked" :> FEPrivate`Set[DynamicChart`click$5023$5144, 
+                    FEPrivate`Not[DynamicChart`click$5023$5144]], 
                   PassEventsDown -> True, Method -> "Preemptive", 
                   PassEventsUp -> True}]], 
                Dynamic[
                 FEPrivate`If[
-                DynamicChart`click$22881$22954, {{{1., 0., 0.}, {0., 1., 
-                  0.}, {0., 0., 
-                  1.}}, {-0.1997291053715837, -0.010405982292259761`, 0.}}, {{
-                 1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 
-                 0, 1}}], 
-                TrackedSymbols :> {DynamicChart`click$22881$22954}]], 
+                DynamicChart`click$5023$5144, {{{1., 0., 0.}, {0., 1., 0.}, {
+                  0., 0., 
+                  1.}}, {-0.19948892181979003`, -0.014288809298808172`, 
+                  0.}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 
+                 0}, {0, 0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$5023$5144}]], 
               "DelayedClickEffect3D"]}}}}, {}}, {{}}}}}, 
      DynamicModuleValues :> {}], {
     PlotRange -> {{1.2, -1.2}, {1.2, -1.2}, {0., 1.02}}, Boxed -> False, 
@@ -4185,8 +4198,21 @@ az+6Pajggz21xLHb+8Eeuzs/2GP31wd77OHwwR4Ag6lWlA==
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{
   3.8332952267081184`*^9, 3.833295682005685*^9, {3.8332957711388445`*^9, 
-   3.8332957828926363`*^9}},
- CellLabel->"Out[35]=",ExpressionUUID->"8b849b12-c124-4b6c-a3d1-7c50d7f796aa"]
+   3.8332957828926363`*^9}, 3.8333000596370735`*^9, {3.8333001090179434`*^9, 
+   3.83330011167299*^9}, 3.8333007006946335`*^9, {3.833301472226437*^9, 
+   3.833301478399186*^9}, {3.8333017509912615`*^9, 3.8333017580881124`*^9}, {
+   3.833302342673461*^9, 3.8333023498115273`*^9}, {3.8333025929318495`*^9, 
+   3.8333026349056787`*^9}, {3.8333027389219155`*^9, 
+   3.8333027485779896`*^9}, {3.8333029126727653`*^9, 
+   3.8333029468010874`*^9}, {3.836287343695162*^9, 3.836287370941039*^9}, 
+   3.8362874215061474`*^9, {3.8362876266883025`*^9, 3.8362876422864323`*^9}, 
+   3.836287724126341*^9, 3.8362884536924434`*^9, 3.83629108336285*^9, 
+   3.836292634048603*^9, 3.8363783884482603`*^9, 3.8368371315572147`*^9, 
+   3.8378665259579954`*^9, 3.8378672595875473`*^9, 3.837867685035529*^9, 
+   3.8378677746350822`*^9, {3.8378680027187386`*^9, 3.8378680191690836`*^9}, 
+   3.837868156245527*^9, 3.8378693207865267`*^9, 3.837869417168848*^9, 
+   3.8379707214543924`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"ecfb3a5a-54f0-48f9-af7a-66950e003b58"]
 }, Open  ]]
 }, Open  ]],
 
@@ -4209,6 +4235,15 @@ prebivalcev in posledi\[CHacek]no tudi, kdaj jih je bilo najmanj za dr\
   3.833297625152878*^9}},ExpressionUUID->"fc990603-7fd9-49c0-91b4-\
 cef9f2f5c047"],
 
+Cell[CellGroupData[{
+
+Cell["SPOL - SKUPAJ (dr\[ZHacek]avljani RS)", "Subsection",
+ CellChangeTimes->{{3.833301575294737*^9, 
+  3.833301585496058*^9}},ExpressionUUID->"f4cbc0a5-b4de-40a6-8ce0-\
+eba786111a19"],
+
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"poLetihDRS", " ", "=", " ", 
   RowBox[{"graf", "[", 
@@ -4220,15 +4255,7 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"8", ",", " ", "2"}], "}"}]}], "]"}]}]], "Input",
  CellChangeTimes->{3.8332960209707365`*^9},
- CellLabel->"In[41]:=",ExpressionUUID->"c7a10296-65d8-4cde-bb76-0a1ebbbb30f2"],
-
-Cell[CellGroupData[{
-
-Cell["SPOL - SKUPAJ (dr\[ZHacek]avljani RS)", "Subsection",
- CellChangeTimes->{{3.8332974760953074`*^9, 3.833297500233513*^9}, {
-  3.833297656735733*^9, 
-  3.8332976575220823`*^9}},ExpressionUUID->"6ad29d6f-a85d-4793-9546-\
-34be14d9dab9"],
+ CellLabel->"In[4]:=",ExpressionUUID->"c7a10296-65d8-4cde-bb76-0a1ebbbb30f2"],
 
 Cell[BoxData[
  TagBox[
@@ -4262,7 +4289,7 @@ Cell[BoxData[
        TypeSystem`Struct[{"Leto", "Spol - SKUPAJ (DRS)"}, {
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 13], "Meta" -> 
-     Association["ID" -> 218034250561622], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 176845518867532], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "Leto"} -> 1, {All, "Spol - SKUPAJ (DRS)"} -> 1], 
        TypeSystem`PackageScope`Limited[
@@ -4924,13 +4951,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{215., {168.5, 174.5}},
+      ImageSizeCache->{222., {177., 183.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{215., {168.5, 174.5}}],
+     ImageSizeCache->{222., {177., 183.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -4944,9 +4971,10 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.8332951582915416`*^9, 3.8332960240434885`*^9, 
-  3.8332961817722597`*^9},
- CellLabel->"Out[41]=",ExpressionUUID->"5ad2bbeb-a8d5-4734-81c8-6be94da7a72f"],
+ CellChangeTimes->{3.833300109255619*^9, 3.836837137913893*^9, 
+  3.8378665309656467`*^9, 3.837970732544042*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"8472b1f4-37b4-40f8-85e8-f26c1d6a29e1"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -4955,7 +4983,7 @@ Cell[BoxData[
   RowBox[{"poLetihDRS", ",", " ", 
    RowBox[{"ImageSize", " ", "\[Rule]", " ", "Large"}]}], "]"}]], "Input",
  CellChangeTimes->{3.833296029393182*^9},
- CellLabel->"In[39]:=",ExpressionUUID->"46e1ae97-3542-4408-8106-b301ebdeee1d"],
+ CellLabel->"In[5]:=",ExpressionUUID->"46e1ae97-3542-4408-8106-b301ebdeee1d"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{}, {}, 
@@ -4998,8 +5026,10 @@ Cell[BoxData[
      Scaled[0.05], 
      Scaled[0.08090169943749476]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.8332951818217087`*^9, 3.8332960320425687`*^9},
- CellLabel->"Out[39]=",ExpressionUUID->"e4d44842-ed9b-468c-a8ed-4ff355b8ed21"]
+ CellChangeTimes->{3.8332951818217087`*^9, 3.8332960320425687`*^9, 
+  3.8333000756994085`*^9, 3.8333001097689166`*^9, 3.8378678044050274`*^9, 
+  3.837868179740677*^9, 3.8378694473653774`*^9, 3.83797074214607*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"71c3f3ae-5833-4486-b5dd-08ec3a844669"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5024,7 +5054,7 @@ Cell[BoxData[
      RowBox[{"8", ",", " ", "5"}], "}"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8332959238830566`*^9, 3.8332959317827525`*^9}, {
   3.8332959635108166`*^9, 3.833295964287199*^9}},
- CellLabel->"In[42]:=",ExpressionUUID->"85610edd-76e9-44b3-8410-232b50a5c97a"],
+ CellLabel->"In[5]:=",ExpressionUUID->"85610edd-76e9-44b3-8410-232b50a5c97a"],
 
 Cell[BoxData[
  TagBox[
@@ -5058,7 +5088,7 @@ Cell[BoxData[
        TypeSystem`Struct[{"Leto", "Spol - SKUPAJ (tuji)"}, {
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 13], "Meta" -> 
-     Association["ID" -> 218038545528926], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 245968722425161], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "Leto"} -> 1, {All, "Spol - SKUPAJ (tuji)"} -> 1], 
        TypeSystem`PackageScope`Limited[
@@ -5720,13 +5750,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{208., {168.5, 174.5}},
+      ImageSizeCache->{217., {177., 183.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{208., {168.5, 174.5}}],
+     ImageSizeCache->{217., {177., 183.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -5740,8 +5770,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.833295967340212*^9, 3.8332961902862062`*^9},
- CellLabel->"Out[42]=",ExpressionUUID->"2ee305e1-dce9-440c-9920-86b565718dc7"]
+ CellChangeTimes->{3.833295967340212*^9, 3.8332961902862062`*^9, 
+  3.833300109831194*^9, 3.836837143769086*^9, 3.8378665366240044`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"b903d510-dadd-4876-a2cf-45c0b99560b4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5751,7 +5782,7 @@ Cell[BoxData[
   RowBox[{"poLetihTujci", ",", " ", 
    RowBox[{"ImageSize", " ", "\[Rule]", " ", "Large"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.833296000543062*^9, 3.833296002583583*^9}},
- CellLabel->"In[37]:=",ExpressionUUID->"6919d64d-463a-4aaf-97bd-6cd8ecb848eb"],
+ CellLabel->"In[56]:=",ExpressionUUID->"6919d64d-463a-4aaf-97bd-6cd8ecb848eb"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{}, {}, 
@@ -5793,18 +5824,3226 @@ Cell[BoxData[
      Scaled[0.02], 
      Scaled[0.08090169943749476]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.83329600525397*^9},
- CellLabel->"Out[37]=",ExpressionUUID->"08246c31-397e-4ce6-86e8-9184b5bbb1b0"]
+ CellChangeTimes->{
+  3.83329600525397*^9, {3.8333000922494125`*^9, 3.833300110197712*^9}, 
+   3.836837161682818*^9, 3.8378678187050543`*^9, 3.837868188992629*^9, 
+   3.8378694590946493`*^9},
+ CellLabel->"Out[56]=",ExpressionUUID->"5d31aab8-8ecc-404d-b3e9-5de99ff785d4"]
 }, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Analiza prebivalstva Slovenije in drugih dr\[ZHacek]av v Mathematici", \
+"Section",
+ CellChangeTimes->{{3.836836558646348*^9, 3.8368366126953106`*^9}, {
+  3.8368366869944105`*^9, 3.836836712381532*^9}, {3.8368391720136023`*^9, 
+  3.836839179180853*^9}},ExpressionUUID->"2dfaf3d8-9529-4892-b01e-\
+af4a7b1b7e42"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = " country Slovenia", Typeset`newq$$ = 
+   " country Slovenia", Typeset`chosen$$ = 
+   "Entity[\"Country\", \"Slovenia\"]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+     WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse[
+                 " country Slovenia", 
+                  Defer[
+                   Entity["Country", "Slovenia"]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 TemplateBox[{"\"Slovenia\"", 
+                   RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                   "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                   "\"country\""},
+                  "Entity"],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 TemplateBox[{"\"Slovenia\"", 
+                   RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                   "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                   "\"country\""},
+                  "Entity"],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"]], "Input"], All]; SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            AppearanceElements->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+        "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+         WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  WolframAlphaClient`Private`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    " country Slovenia", 
+                    Defer[
+                    Entity["Country", "Slovenia"]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"]], "Input"], All]; SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                AppearanceElements->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+            "MouseExited" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[24]:=",ExpressionUUID->"5798949f-9faf-406f-a199-50559797c223"],
+
+Cell[BoxData[
+ TemplateBox[{"\"Slovenia\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+   "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", "\"country\""},
+  "Entity"]], "Output",
+ CellChangeTimes->{3.836289623930428*^9, 3.836837171816682*^9, 
+  3.837867012259715*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"fb24f2fc-c69c-4f67-ab39-57920de86316"]
+}, Open  ]],
+
+Cell["\<\
+Z ukazom = population of country, lahko za dolo\[CHacek]eno dr\[ZHacek]avo \
+dobimo njeno trenutno prebivaltsvo. Spodaj je primer, ki velja za Slovenijo.\
+\>", "Text",
+ CellChangeTimes->{{3.8368366689812565`*^9, 3.8368366794985113`*^9}, {
+  3.8368367164327345`*^9, 3.8368367983108735`*^9}, {3.836836973115744*^9, 
+  3.8368369756099987`*^9}},ExpressionUUID->"01179fb2-1c3b-4507-ad73-\
+3fd95dccd0cc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = " population of Slovenia", Typeset`newq$$ = 
+   " population of Slovenia", Typeset`chosen$$ = 
+   "Entity[\"Country\", \"Slovenia\"][EntityProperty[\"Country\", \
+\"Population\"]]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+     WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse[
+                 " population of Slovenia", 
+                  Defer[
+                   Entity["Country", "Slovenia"][
+                    EntityProperty["Country", "Population"]]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                   "Entity"], "[", 
+                  TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\"]\""},
+                   "EntityProperty"], "]"}],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                   "Entity"], "[", 
+                  TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\"]\""},
+                   "EntityProperty"], "]"}],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"], "[", 
+                    TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \
+\\\"Population\\\"]\""}, "EntityProperty"], "]"}]], "Input"], All]; 
+                SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            AppearanceElements->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+        "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+         WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  WolframAlphaClient`Private`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    " population of Slovenia", 
+                    Defer[
+                    Entity["Country", "Slovenia"][
+                    EntityProperty["Country", "Population"]]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\"]\""},
+                    "EntityProperty"], "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\"]\""},
+                    "EntityProperty"], "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"], "[", 
+                    TemplateBox[{"\"population\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Population\""}], "]"}], 
+                    "\"EntityProperty[\\\"Country\\\", \
+\\\"Population\\\"]\""}, "EntityProperty"], "]"}]], "Input"], All]; 
+                    SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                AppearanceElements->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+            "MouseExited" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[25]:=",ExpressionUUID->"789a6988-f058-4990-a94b-2e605d8f144f"],
+
+Cell[BoxData[
+ TemplateBox[{"2078932", "\"people\"", "people", "\"People\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.8368371771057024`*^9, 3.837867015657118*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"fe645888-d963-4b32-b7bf-b1c314d1fbe1"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{"2078932", "\"people\"", "people", "\"People\""},
+  "Quantity"]], "Input",
+ CellChangeTimes->{{3.8362896750064974`*^9, 3.83628967505268*^9}, 
+   3.8363790105458384`*^9},ExpressionUUID->"fae5f443-b2ca-46e8-a243-\
+4bb06f664b52"],
+
+Cell["\<\
+Z ukazom = population in country in year, lahko za dolo\[CHacek]eno dr\
+\[ZHacek]avo in za dolo\[CHacek]eno leto dobimo  \[SHacek]tevilo \
+prebivalstva. Spodaj je primer, ki velja za Slovenijo za leto 2016.\
+\>", "Text",
+ CellChangeTimes->{{3.836836806920467*^9, 3.83683691646702*^9}, {
+  3.836836950157403*^9, 
+  3.8368369655586185`*^9}},ExpressionUUID->"51a01588-684a-4c82-8b7c-\
+5e1e4ca4cc7b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = " population in  Slovenia in 2016", 
+   Typeset`newq$$ = " population in  Slovenia in 2016", Typeset`chosen$$ = 
+   "Entity[\"Country\", \"Slovenia\"][EntityProperty[\"Country\", \
+\"Population\", {\"Date\" -> DateObject[{2016}]}]]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+     WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{11., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse[
+                 " population in  Slovenia in 2016", 
+                  Defer[
+                   Entity["Country", "Slovenia"][
+                    EntityProperty[
+                    "Country", "Population", {
+                    "Date" -> DateObject[{2016}]}]]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                   "Entity"], "[", 
+                  InterpretationBox[
+                   
+                   DynamicModuleBox[{EntityFramework`Formatting`Private`open =
+                     False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]},
+                    "ImplicitEntityPropertyToggle"]],
+                   EntityProperty[
+                   "Country", "Population", {"Date" -> DateObject[{2016}]}],
+                   SelectWithContents->True], "]"}],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                   "Entity"], "[", 
+                  InterpretationBox[
+                   
+                   DynamicModuleBox[{EntityFramework`Formatting`Private`open =
+                     False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]},
+                    "ImplicitEntityPropertyToggle"]],
+                   EntityProperty[
+                   "Country", "Population", {"Date" -> DateObject[{2016}]}],
+                   SelectWithContents->True], "]"}],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"], "[", 
+                    InterpretationBox[
+                    
+                    DynamicModuleBox[{
+                    EntityFramework`Formatting`Private`open = False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]}, 
+                    "ImplicitEntityPropertyToggle"]], 
+                    EntityProperty[
+                    "Country", "Population", {"Date" -> DateObject[{2016}]}], 
+                    SelectWithContents -> True], "]"}]], "Input"], All]; 
+                SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            AppearanceElements->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+        "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+         WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  WolframAlphaClient`Private`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    " population in  Slovenia in 2016", 
+                    Defer[
+                    Entity["Country", "Slovenia"][
+                    EntityProperty[
+                    "Country", "Population", {
+                    "Date" -> DateObject[{2016}]}]]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"], "[", 
+                    InterpretationBox[
+                    
+                    DynamicModuleBox[{
+                    EntityFramework`Formatting`Private`open = False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]},
+                    "ImplicitEntityPropertyToggle"]],
+                    EntityProperty[
+                    "Country", "Population", {"Date" -> DateObject[{2016}]}],
+                    SelectWithContents->True], "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""},
+                    "Entity"], "[", 
+                    InterpretationBox[
+                    
+                    DynamicModuleBox[{
+                    EntityFramework`Formatting`Private`open = False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]},
+                    "ImplicitEntityPropertyToggle"]],
+                    EntityProperty[
+                    "Country", "Population", {"Date" -> DateObject[{2016}]}],
+                    SelectWithContents->True], "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Slovenia\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}], 
+                    "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"", 
+                    "\"country\""}, "Entity"], "[", 
+                    InterpretationBox[
+                    
+                    DynamicModuleBox[{
+                    EntityFramework`Formatting`Private`open = False}, 
+                    TemplateBox[{
+                    
+                    TemplateBox[{"\"population\""}, 
+                    "ImplicitEntityPropertyBase"], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RowBox[{" ", "\"Date\""}], "\":\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityInfoRow"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "GeneralizedEntityInfoGrid", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], 
+                    Dynamic[EntityFramework`Formatting`Private`open], 
+                    "\"EntityProperty[\\\"Country\\\", \\\"Population\\\", \
+{\\\"Date\\\" -> DateObject[{2016}, \\\"Year\\\", \\\"Gregorian\\\", 2.]}]\"", 
+                    TemplateBox[{
+                    TemplateBox[{
+                    RowBox[{
+                    StyleBox[
+                    "\"Year: \"", FontColor -> GrayLevel[0.5], FontWeight -> 
+                    Plain], "\"2016\""}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", "2016", "}"}], ",", "\"Year\"", ",", 
+                    "\"Gregorian\"", ",", "2.`"}], "]"}]}, "DateObject", 
+                    Editable -> False]}, "ImplicitEntityPropertySequence"]}, 
+                    "ImplicitEntityPropertyToggle"]], 
+                    EntityProperty[
+                    "Country", "Population", {"Date" -> DateObject[{2016}]}], 
+                    SelectWithContents -> True], "]"}]], "Input"], All]; 
+                    SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                AppearanceElements->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+            "MouseExited" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[26]:=",ExpressionUUID->"2ac4427e-502f-4eea-b7e1-65ef35055680"],
+
+Cell[BoxData[
+ TemplateBox[{"2074205", "\"people\"", "people", "\"People\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.836289704688902*^9, 3.836837178214403*^9, 
+  3.8378665541331453`*^9, 3.837867017098454*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"442cc0ed-6d07-4dd0-9aec-44fce7983d60"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Funkcija, ki nam vrne \[SHacek]tevilo prebivalstva za dolo\[CHacek]eno dr\
+\[ZHacek]avo in dolo\[CHacek]eno leto:\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.8368418973384643`*^9, 
+  3.836841944343401*^9}},ExpressionUUID->"6f47426f-3cca-4010-84d4-\
+0dd072ccba94"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"steviloPrebivalcev", "[", 
+   RowBox[{"drzava_", ",", " ", "leto_"}], "]"}], " ", ":=", " ", 
+  RowBox[{
+   RowBox[{"Entity", "[", 
+    RowBox[{"\"\<Country\>\"", ",", "drzava"}], "]"}], "[", 
+   RowBox[{"EntityProperty", "[", 
+    RowBox[{"\"\<Country\>\"", ",", "\"\<Population\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Date\>\"", "\[Rule]", 
+       RowBox[{"DateObject", "[", 
+        RowBox[{"{", "leto", "}"}], "]"}]}], "}"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8362899723725705`*^9, 3.8362901598298707`*^9}, {
+  3.836290798365018*^9, 3.836290831467393*^9}, {3.836837229310276*^9, 
+  3.8368372307619514`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"59c3b7db-618b-4d59-9b4d-f9aa15dba224"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"tabela1", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"steviloPrebivalcev", "[", 
+       RowBox[{"\"\<Croatia\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", 
+    " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2010", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.836290494847541*^9, 3.83629058394007*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"6a4b3de3-0461-4485-9c25-0f3faca176d8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2010", ",", 
+     TemplateBox[{"4328163", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", 
+     TemplateBox[{"4313098", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", 
+     TemplateBox[{"4295869", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", 
+     TemplateBox[{"4276593", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", 
+     TemplateBox[{"4255518", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", 
+     TemplateBox[{"4232874", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", 
+     TemplateBox[{"4208611", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", 
+     TemplateBox[{"4182847", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", 
+     TemplateBox[{"4156407", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", 
+     TemplateBox[{"4130299", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", 
+     TemplateBox[{"4105268", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.8362905863024464`*^9, 3.8362908535721908`*^9, 
+  3.836837244847618*^9, 3.8378665689533253`*^9, 3.8378670261154194`*^9, 
+  3.8378682593021374`*^9, 3.837869522653977*^9, 3.837970780408906*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"b4bf5935-7ab0-4f53-9909-682722e7611a"]
+}, Open  ]],
+
+Cell["\<\
+Graf, ki nam prika\[ZHacek]e \[SHacek]tevilo prebivalstva za Hrva\[SHacek]ko \
+od leta 2000 - 2020.\
+\>", "Text",
+ CellChangeTimes->{{3.836837702916693*^9, 3.8368377313163495`*^9}, {
+  3.8368381710731697`*^9, 
+  3.8368381757020864`*^9}},ExpressionUUID->"cde7e68c-4a2e-4f27-b414-\
+0004700d13a5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", "tabela1", "}"}], ",", " ", 
+   RowBox[{"PlotLabel", " ", "\[Rule]", " ", "\"\<Hrva\[SHacek]ka\>\""}], ",",
+    " ", 
+   RowBox[{"ImageSize", "\[Rule]", " ", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8362904569182634`*^9, 3.8362904716651115`*^9}, {
+  3.836290599787232*^9, 3.836290637228257*^9}, {3.8362906686158037`*^9, 
+  3.8362906824816313`*^9}, {3.8362908910378294`*^9, 3.836290899327052*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"bb060c4c-9853-4bf3-8b73-136ac6d7bda4"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+     LineBox[{{2010., 4.328163*^6}, {2011., 4.313098*^6}, {2012., 
+      4.295869*^6}, {2013., 4.276593*^6}, {2014., 4.255518*^6}, {2015., 
+      4.232874*^6}, {2016., 4.208611*^6}, {2017., 4.182847*^6}, {2018., 
+      4.156407*^6}, {2019., 4.130299*^6}, {2020., 4.105268*^6}}]}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{2009.7916666666667`, 4.092884944444445*^6},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->Large,
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox["\"Hrva\[SHacek]ka\"", TraditionalForm],
+  PlotRange->{{2009.7916666666667`, 2020.}, {4.092884944444445*^6, 
+   4.328163*^6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.8362906026030827`*^9, {3.836290670537132*^9, 3.836290684782737*^9}, 
+   3.836290858177494*^9, 3.8362909019052916`*^9, 3.8368372516162834`*^9, 
+   3.837866573861641*^9, 3.8378670285675764`*^9, 3.837868279740844*^9, 
+   3.837869539359148*^9},
+ CellLabel->"Out[58]=",ExpressionUUID->"3942936f-21ea-49aa-ae5e-fb2cedb67d36"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"tabela2", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"steviloPrebivalcev", "[", 
+       RowBox[{"\"\<Slovenia\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", 
+    " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8362909246321707`*^9, 3.8362909306144667`*^9}, {
+  3.836291481969247*^9, 3.836291485937909*^9}, {3.836291664291998*^9, 
+  3.8362916663199797`*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"98f05d4e-327c-4664-bdd0-694f59926cc6"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2000", ",", 
+     TemplateBox[{"1987710", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2001", ",", 
+     TemplateBox[{"1987457", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2002", ",", 
+     TemplateBox[{"1987265", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2003", ",", 
+     TemplateBox[{"1987855", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2004", ",", 
+     TemplateBox[{"1990226", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2005", ",", 
+     TemplateBox[{"1994979", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2006", ",", 
+     TemplateBox[{"2002427", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2007", ",", 
+     TemplateBox[{"2012128", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2008", ",", 
+     TemplateBox[{"2023049", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2009", ",", 
+     TemplateBox[{"2033807", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2010", ",", 
+     TemplateBox[{"2043336", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", 
+     TemplateBox[{"2051278", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", 
+     TemplateBox[{"2057826", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", 
+     TemplateBox[{"2063120", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", 
+     TemplateBox[{"2067488", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", 
+     TemplateBox[{"2071199", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", 
+     TemplateBox[{"2074205", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", 
+     TemplateBox[{"2076395", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", 
+     TemplateBox[{"2077836", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", 
+     TemplateBox[{"2078654", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", 
+     TemplateBox[{"2078932", "\"people\"", "people", "\"People\""},
+      "Quantity"]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8362909433486485`*^9, 3.836290943708353*^9}, 
+   3.8362914891342845`*^9, 3.836291554666255*^9, {3.8362916818176465`*^9, 
+   3.8362916823473186`*^9}, 3.8368372726903915`*^9, 3.8378665968435235`*^9, 
+   3.837867033345973*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"53a9d659-9ac3-416d-b007-22d738ce17fb"]
+}, Open  ]],
+
+Cell["\<\
+Graf, ki nam prika\[ZHacek]e celotno prebivalstvo Slovenije od leta 2000 - \
+2020.\
+\>", "Text",
+ CellChangeTimes->{{3.8368377597092896`*^9, 3.8368377742459273`*^9}, {
+  3.8368381608937225`*^9, 
+  3.8368381659384623`*^9}},ExpressionUUID->"534d788d-7678-4a71-a3fd-\
+eb910d0e4545"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", "tabela2", "}"}], ",", " ", 
+   RowBox[{"PlotLabel", " ", "\[Rule]", " ", "\"\<Slovenija\>\""}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", " ", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.83629099804932*^9, 3.8362910096858225`*^9}, {
+  3.83629151493878*^9, 3.8362915188505774`*^9}, {3.836291581991703*^9, 
+  3.8362916349499955`*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"f1df2bf4-5871-4d52-9516-d2e854db4044"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+     LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x1AVF2InSOY7wLhNwZD+R4Q/sEgKN8HwucP
+hfIDIPygOCg/BMJ/XADlR0D4v3uh/BgI/8FmKD8Bwu+8B+WnQPj9HPYQfgaE
+f0IXys+B8M/5QPkFEH5SGpRfAuELVEP5FRC+Qg+UXwPhz58F5TdA+LHLoPwW
+CP/1Oii/A8Lv2QLl90D4+7ZD+RMg/Cs77B0BTws9ag==
+      "]]}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{1999.5833333333335`, 1.9821723888888888`*^6},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->Large,
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox["\"Slovenija\"", TraditionalForm],
+  PlotRange->{{1999.5833333333335`, 2020.}, {1.9821723888888888`*^6, 
+   2.078932*^6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.8362916374287887`*^9, {3.8362916820195246`*^9, 3.8362916825142155`*^9}, 
+   3.836837272808812*^9, 3.8378665969563413`*^9, 3.837867035838316*^9, 
+   3.837869554359895*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"4e20fbaa-96bb-4ea4-8b88-74a699c31b8f"]
+}, Open  ]],
+
+Cell["\<\
+Graf, ki nam prika\[ZHacek]e razliko med prebivalstvom Slovenije in Hrva\
+\[SHacek]ke.\
+\>", "Text",
+ CellChangeTimes->{{3.8368380484815006`*^9, 
+  3.8368380938466167`*^9}},ExpressionUUID->"17d8ac91-f530-4b65-9a9b-\
+f9a3d50d6417"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"tabela2", ",", " ", "tabela1"}], "}"}], ",", " ", 
+   RowBox[{"PlotLegends", "\[Rule]", " ", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Slovenia\>\"", ",", " ", "\"\<Croatia\>\""}], "}"}]}], ",", 
+   " ", 
+   RowBox[{"ImageSize", "\[Rule]", " ", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.836837795361548*^9, 3.8368380308549204`*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"d67df41d-7fed-4c99-8223-f8a804f29dff"],
+
+Cell[BoxData[
+ TemplateBox[{
+   GraphicsBox[{{}, {{{}, {}, {
+        Hue[0.67, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6]], 
+        LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x1AVF2InSOY7wLhNwZD+R4Q/sEgKN8HwucP
+hfIDIPygOCg/BMJ/XADlR0D4v3uh/BgI/8FmKD8Bwu+8B+WnQPj9HPYQfgaE
+f0IXys+B8M/5QPkFEH5SGpRfAuELVEP5FRC+Qg+UXwPhz58F5TdA+LHLoPwW
+CP/1Oii/A8Lv2QLl90D4+7ZD+RMg/Cs77B0BTws9ag==
+         "]]}, {
+        Hue[0.9060679774997897, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[7, 360], 0.019444444444444445`]], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{2010., 4.328163*^6}, {2011., 4.313098*^6}, {2012., 
+         4.295869*^6}, {2013., 4.276593*^6}, {2014., 4.255518*^6}, {2015., 
+         4.232874*^6}, {2016., 4.208611*^6}, {2017., 4.182847*^6}, {2018., 
+         4.156407*^6}, {2019., 4.130299*^6}, {2020., 
+         4.105268*^6}}]}}}, {{}, {}}}, {
+    DisplayFunction -> Identity, DisplayFunction -> Identity, AspectRatio -> 
+     NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
+     AxesLabel -> {None, None}, AxesOrigin -> {1999.5833333333335`, 0}, 
+     DisplayFunction :> Identity, Frame -> {{False, False}, {False, False}}, 
+     FrameLabel -> {{None, None}, {None, None}}, 
+     FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+     GridLines -> {None, None}, GridLinesStyle -> Directive[
+       GrayLevel[0.5, 0.4]], ImageSize -> Large, 
+     Method -> {
+      "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+       "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& )}}, 
+     PlotRange -> {{1999.5833333333335`, 2020.}, {0, 4.328163*^6}}, 
+     PlotRangeClipping -> True, PlotRangePadding -> {{
+        Scaled[0.02], 
+        Scaled[0.02]}, {
+        Scaled[0.02], 
+        Scaled[0.05]}}, Ticks -> {Automatic, Automatic}}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{"\"Slovenia\"", "\"Croatia\""}, "LineLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"LineLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["7", "360"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.24561133333333335`, 0.3378526666666667, 
+                    0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
+                    None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.368417`", ",", "0.506779`", ",", "0.709798`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.368417, 0.506779, 0.709798]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.368417, 0.506779, 0.709798], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["7", "360"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.587148, 0.40736066666666665`, 0.09470066666666668], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.880722`", ",", "0.611041`", ",", "0.142051`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.880722, 0.611041, 0.142051]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.880722, 0.611041, 0.142051], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}]}],
+              "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2}], "}"}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"True", ",", "True"}], "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}]}], "]"}]& ), 
+      Editable -> True], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.8368378919549594`*^9, {3.836837924805772*^9, 3.8368379492228413`*^9}, {
+   3.8368379846063666`*^9, 3.836838033601944*^9}, 3.8378666004938793`*^9, 
+   3.8378670425256968`*^9, 3.837869565768968*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"22363c4b-d53b-49d1-b96d-e65d28efa8b2"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Analiza glede na relativni priprastek", "Section",
+ CellChangeTimes->{{3.836837678921254*^9, 3.8368376866321297`*^9}, {
+  3.836839155435397*^9, 
+  3.836839161898345*^9}},ExpressionUUID->"9575ac0c-55a1-4fc0-a565-\
+e880f54b4d80"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Funkcija, ki nam vrne relativni priprastek za dolo\[CHacek]eno dr\[ZHacek]avo \
+in leto :\
+\>", "Subsection",
+ CellChangeTimes->{{3.8368392309731407`*^9, 3.8368392360624647`*^9}, {
+  3.8368394519408026`*^9, 
+  3.836839491603255*^9}},ExpressionUUID->"ea02ee7f-0d65-4394-a05a-\
+1f0298c02629"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"relativniPrirastek", "[", 
+   RowBox[{"drzava_", ",", " ", "leto_"}], "]"}], " ", ":=", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"steviloPrebivalcev", "[", 
+       RowBox[{"drzava", ",", " ", "leto"}], "]"}], " ", "-", " ", 
+      RowBox[{"steviloPrebivalcev", "[", 
+       RowBox[{"drzava", ",", " ", 
+        RowBox[{"leto", " ", "-", " ", "1"}]}], "]"}]}], ")"}], " ", "/", " ", 
+    RowBox[{"steviloPrebivalcev", "[", 
+     RowBox[{"drzava", ",", " ", 
+      RowBox[{"leto", " ", "-", "1"}]}], "]"}]}], " ", "//", " ", 
+   "N"}]}]], "Input",
+ CellLabel->"In[10]:=",ExpressionUUID->"b1e61bfe-5447-433b-bab7-ed519846eb23"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"relativniPrirastek", "[", 
+  RowBox[{"\"\<Slovenia\>\"", ",", " ", "2020"}], "]"}]], "Input",
+ CellLabel->"In[11]:=",ExpressionUUID->"8385e92b-4804-43bb-8083-ba0f15fc8de9"],
+
+Cell[BoxData["0.00013374039161880718`"], "Output",
+ CellChangeTimes->{3.8368372901541843`*^9, 3.8378666145147867`*^9, 
+  3.8378683387147093`*^9, 3.8379708318659782`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"158e1bb0-a8cd-46e5-8f2f-0ad1c00cb0ac"]
+}, Open  ]],
+
+Cell["\<\
+Relativni prirastki Slovenije, Hrva\[SHacek]ke, \[CapitalSHacek]panije in \
+Avstrije od leta 2000 - 2020.\
+\>", "Text",
+ CellChangeTimes->{{3.8368381212390165`*^9, 
+  3.8368381486222196`*^9}},ExpressionUUID->"06bdec4d-35ef-452a-8f5f-\
+1be372b2aea5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"relativniSlo", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"relativniPrirastek", "[", 
+       RowBox[{"\"\<Slovenia\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", 
+    " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8362917748475947`*^9, 3.836291801508194*^9}, {
+  3.83629183757596*^9, 3.836291868892634*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"6f0928e7-8e86-42dd-bf6f-b917b2244ec6"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2000", ",", "0.00004276460599962267`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2001", ",", 
+     RowBox[{"-", "0.00012728214880440306`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2002", ",", 
+     RowBox[{"-", "0.0000966058636740317`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2003", ",", "0.0002968904499399929`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2004", ",", "0.0011927429314512376`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2005", ",", "0.002388170991636126`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2006", ",", "0.0037333726319926175`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2007", ",", "0.0048446210523529695`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2008", ",", "0.005427587111754322`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2009", ",", "0.005317715982163556`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "0.004685301997682179`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "0.003886781224429071`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "0.0031921563045087015`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "0.0025726178986950304`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "0.0021171817441544847`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "0.0017949318206441826`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "0.0014513332615552633`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "0.00105582620811347`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "0.0006939912685206813`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "0.0003936788081446274`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "0.00013374039161880718`"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.836291872685596*^9, 3.836292474749338*^9, 
+  3.8368372974089155`*^9, 3.837866622701087*^9, 3.8379708532486067`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"7edb536f-2fd9-4c2c-9154-e8b815a3efdf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"relativniHrv", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"relativniPrirastek", "[", 
+       RowBox[{"\"\<Croatia\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", 
+    " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.836291887180464*^9, 3.8362918967271137`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"2b9f1824-ba44-400a-b703-d90fada56171"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2000", ",", 
+     RowBox[{"-", "0.006366283805525749`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2001", ",", 
+     RowBox[{"-", "0.004517086996042298`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2002", ",", 
+     RowBox[{"-", "0.002783756076634847`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2003", ",", 
+     RowBox[{"-", "0.001568087006648616`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2004", ",", 
+     RowBox[{"-", "0.0011465263918664069`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2005", ",", 
+     RowBox[{"-", "0.0013255390148948067`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2006", ",", 
+     RowBox[{"-", "0.001663748330884002`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2007", ",", 
+     RowBox[{"-", "0.0019115572453625004`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2008", ",", 
+     RowBox[{"-", "0.0022437051668715603`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2009", ",", 
+     RowBox[{"-", "0.0026140463291350374`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2010", ",", 
+     RowBox[{"-", "0.003017095724030414`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", 
+     RowBox[{"-", "0.0034806914619435543`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", 
+     RowBox[{"-", "0.0039945765201718116`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", 
+     RowBox[{"-", "0.004487101445598085`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", 
+     RowBox[{"-", "0.004927988237365585`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", 
+     RowBox[{"-", "0.00532109134540143`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", 
+     RowBox[{"-", "0.005732039271662705`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", 
+     RowBox[{"-", "0.006121734700593616`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", 
+     RowBox[{"-", "0.006321053579057517`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", 
+     RowBox[{"-", "0.006281386784306734`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", 
+     RowBox[{"-", "0.006060336067679362`"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8362919131176443`*^9, 3.836291913309115*^9}, 
+   3.8362924767405806`*^9, 3.8368373093349714`*^9, 3.8378666334090157`*^9, 
+   3.8379709371113367`*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"c14e6d9b-7990-4b8f-9a64-decb631e7b0b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"relativniSpa", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"relativniPrirastek", "[", 
+       RowBox[{"\"\<Spain\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8362920096024003`*^9, 3.8362920198535852`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"92a579cc-260c-411b-b0b3-1e82ab1486b6"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2000", ",", "0.009152832349412447`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2001", ",", "0.012117307774978141`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2002", ",", "0.01452493380172636`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2003", ",", "0.016146673943136805`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2004", ",", "0.016712423604264722`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2005", ",", "0.016411917841700024`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2006", ",", "0.016116701838505713`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2007", ",", "0.01566135785141847`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2008", ",", "0.014082172184414689`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2009", ",", "0.011173611578557997`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "0.007458531620357273`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "0.0032650266153439566`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", 
+     RowBox[{"-", "0.00044989574218907464`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", 
+     RowBox[{"-", "0.002815477846435779`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", 
+     RowBox[{"-", "0.0032521883291639813`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", 
+     RowBox[{"-", "0.002266197046312035`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", 
+     RowBox[{"-", "0.000809651730840551`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "0.0002850701774629402`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "0.0009740730597669646`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "0.00094059342645149`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "0.0003851570268573476`"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8362920354948373`*^9, 3.836292035688719*^9}, 
+   3.836292478894125*^9, 3.8368373562158146`*^9, 3.837866656510944*^9, 
+   3.837970926633871*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"1a1331f4-ed8c-4ffd-af45-7650df9250a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"relativniAvs", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", 
+      RowBox[{"relativniPrirastek", "[", 
+       RowBox[{"\"\<Austria\>\"", ",", " ", "leto"}], "]"}]}], "}"}], ",", 
+    " ", 
+    RowBox[{"{", 
+     RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8362920455184717`*^9, 3.8362920587437153`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"3255b7a6-5b15-4806-8830-d25d21bb0c7b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2000", ",", "0.0022555879209789054`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2001", ",", "0.003529312914814167`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2002", ",", "0.004525698789355815`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2003", ",", "0.005095887184345305`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2004", ",", "0.005009262028252703`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2005", ",", "0.004484221979089208`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2006", ",", "0.0038393894778265534`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2007", ",", "0.0034260492471948965`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2008", ",", "0.00334314401079371`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2009", ",", "0.0037322911577918907`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2010", ",", "0.004453424468072146`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2011", ",", "0.005179106403192886`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2012", ",", "0.005764357276352129`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2013", ",", "0.006346687868947323`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2014", ",", "0.006897227983807281`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2015", ",", "0.007366278573754194`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2016", ",", "0.00790893348022225`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2017", ",", "0.008299240932008095`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2018", ",", "0.008104511818838804`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2019", ",", "0.0071670515149330535`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2020", ",", "0.005727680782855997`"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8362922359829755`*^9, 3.8362922379204445`*^9}, 
+   3.8362924811466436`*^9, 3.8368374235095453`*^9, {3.8378668292032332`*^9, 
+   3.8378668304557514`*^9}, 3.837970903871996*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"bbf58c86-96ff-48bb-9551-96807159365b"]
+}, Open  ]],
+
+Cell["\<\
+Relativno nara\[SHacek]\[CHacek]anje prebivalstva za Slovenijo, \
+Hrva\[SHacek]ko, \[CapitalSHacek]panijo in Avstrijo v letih 2000 - 2020. \
+\>", "Text",
+ CellChangeTimes->{{3.836838207702116*^9, 3.8368382117622538`*^9}, {
+  3.836838301584281*^9, 
+  3.836838346973796*^9}},ExpressionUUID->"8a017b01-a88e-43ff-a360-\
+4cc91ee9ea9b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "relativniSlo", ",", " ", "relativniHrv", ",", " ", "relativniSpa", ",", 
+     " ", "relativniAvs"}], "}"}], ",", " ", 
+   RowBox[{
+   "PlotLabel", " ", "\[Rule]", " ", 
+    "\"\<Relativno nara\[SHacek]\[CHacek]anje prebivalstva v letih 2000 - \
+2020\>\""}], ",", " ", 
+   RowBox[{"PlotLegends", " ", "\[Rule]", " ", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Slo\>\"", ",", " ", "\"\<Hrv\>\"", ",", " ", "\"\<Spa\>\"", ",", 
+      " ", "\"\<Avs\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.836292241917274*^9, 3.836292369839933*^9}, {
+  3.8362924018820553`*^9, 3.836292407112155*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"891ed360-1bf6-4ab1-baac-35329bc6b6a5"],
+
+Cell[BoxData[
+ TemplateBox[{
+   GraphicsBox[{{}, {{{}, {}, {
+        Hue[0.67, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[1, 60], 0.016666666666666666`]], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6]], 
+        LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x1+u+atOZLNZg/mu8x3mH/WJvThOoX9YL7H
+fAcV7vWSMsGSEL7PfIdjlY+O/isxhqgPmO8QydT6Y2dXMIQfMt/hR9XZzugJ
+yRB+xHyHIK8y7eKpeRB+zHwHiQ2b+b9cL4bwE+Y7rHF0umRjXQbhp8x3eDN1
+ZzP7iVIIP2O+w5b6hbpPDaDqc+Y7nDe6c1z7ej6EXzDfobP7/N18tSwIv2S+
+g7nwuu3awqkQfsV8hyZmK2/eiEQIvwboXqfvsbUZsRB+w3yHw6/MLEOPh0P4
+LfMd/M/rHSrxCYTwO+Y7fFJY8WzeXjcIv2e+w8M/mrOvnrGE8CfMd2CJTjCf
+2q5oDwCocGlB
+         "]]}, {
+        Hue[0.9060679774997897, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[1, 60], 0.016666666666666666`]], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6]], 
+        LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x2mxdzz7hCu2g/mu8x3MDXY69fUUAThe8x3
+kLr3ZOXXs2kQvs98h6c63rM4NkZC+AHzHb7q3wp7eCIIwg+Z72C59M/abdtD
+IfyI+Q4v/t7XcnGKhvBj5jtsvz/727LAeAg/Yb4Dxw0OrpTEJAg/Zb5D5+6z
++bxZqRB+xnyH3y+uvvPbngHh58x3CCx8/L+zOQfCL5jvsKXF/sfcmAIIv2S+
+g5piurxgItT9FfMdruVyHI3TL4Hwa+Y7OCx6PWXi6VIIvwHo378Jk6uqyiH8
+lvkORWnhS6WEKyH8jvkOCQ3xz6SeQPk98x2OlP5707QLyp8w3+GAT5bwzksV
++wGwG3ho
+         "]]}, {
+        Hue[0.1421359549995791, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[1, 60], 0.016666666666666666`]], 
+         RGBColor[0.560181, 0.691569, 0.194885], 
+         AbsoluteThickness[1.6]], 
+        LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x2cpG/F7NjXZA/mu8x3mJZ3v+XrhQ4I32O+
+w69U27n2+3shfJ/5Dl+6JT8d6JgA4QfMd5C/4nKYX3YihB8y3+G22RRNz3NQ
++Yj5Du/CnXufNkD5MfMd+KYqvm/nhPIT5jtMufNCXfZ6D4SfMt/BiqX8kMGj
+Ngg/Y76DSI122LWeOgg/Z77DdGOhi477syD8gvkOC59cqv9fbbsfzC8BuufO
+Ho0agXQIv2K+g5ZzSUDokiwIv2a+AwNfhlv/hCQIv2G+gwC3462b7V4Qfst8
+h3ket8TWrzOCmN8x30HB8NB32df+EH7PfIeegE0Mrpf8IPwJ8x345/VcvWNr
+aQ8Ai65q7g==
+         "]]}, {
+        Hue[0.37820393249936934`, 0.6, 0.6], 
+        Directive[
+         PointSize[
+          NCache[
+           Rational[1, 60], 0.016666666666666666`]], 
+         RGBColor[0.922526, 0.385626, 0.209179], 
+         AbsoluteThickness[1.6]], 
+        LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x1+nw7q9q9KsgfzXeY7vNlbU9j4MgfC95jv
+8CV0NUtXZxGE7zPfYVb0hTM590sg/ID5DjwOWZ3TW6D8kPkO+2f80OaJg6qP
+mO+w9/TZ9hPF+RB+zHyH89+F9T8JQM1PmO/wKkDtmEhyNoSfMt+hefbxPr3J
+eRB+xnyHOBFF9oO2UPNy5jssOv3n5HqzUgi/YL7DbcED92PnlEP4JfMdmGNi
+eP/8q4TwK+Y7XHn8s9PFoQbCr5nvsKJKJFJKpw7Cb5jvUFOrJtpv1ADht8x3
+uLBC2NnwP5TfMd9BRnyTpuRMKL9nvsOyuTf2GkXXQvgT5jtks/vPelFabg8A
+iWlqLg==
+         "]]}}}, {{}, {}}}, {
+    DisplayFunction -> Identity, DisplayFunction -> Identity, AspectRatio -> 
+     NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
+     AxesLabel -> {None, None}, AxesOrigin -> {1999.5833333333335`, 0}, 
+     DisplayFunction :> Identity, Frame -> {{False, False}, {False, False}}, 
+     FrameLabel -> {{None, None}, {None, None}}, 
+     FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+     GridLines -> {None, None}, GridLinesStyle -> Directive[
+       GrayLevel[0.5, 0.4]], 
+     Method -> {
+      "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+       "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& )}}, PlotLabel -> 
+     FormBox["\"Relativno nara\[SHacek]\[CHacek]anje prebivalstva v letih \
+2000 - 2020\"", TraditionalForm], 
+     PlotRange -> {{1999.5833333333335`, 2020.}, {-0.006366283805525749, 
+      0.016712423604264722`}}, PlotRangeClipping -> True, 
+     PlotRangePadding -> {{
+        Scaled[0.02], 
+        Scaled[0.02]}, {
+        Scaled[0.05], 
+        Scaled[0.05]}}, Ticks -> {Automatic, Automatic}}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{"\"Slo\"", "\"Hrv\"", "\"Spa\"", "\"Avs\""}, "LineLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"LineLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["1", "60"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.24561133333333335`, 0.3378526666666667, 
+                    0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
+                    None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.368417`", ",", "0.506779`", ",", "0.709798`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.368417, 0.506779, 0.709798]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.368417, 0.506779, 0.709798], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["1", "60"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.587148, 0.40736066666666665`, 0.09470066666666668], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.880722`", ",", "0.611041`", ",", "0.142051`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.880722, 0.611041, 0.142051]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.880722, 0.611041, 0.142051], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["1", "60"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.37345400000000006`, 0.461046, 0.12992333333333334`], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.560181`", ",", "0.691569`", ",", "0.194885`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.560181, 0.691569, 0.194885]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.560181, 0.691569, 0.194885], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", 
+                    FractionBox["1", "60"], "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.6150173333333333, 0.25708400000000003`, 
+                    0.13945266666666667`], FrameTicks -> None, 
+                    PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.922526`", ",", "0.385626`", ",", "0.209179`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.922526, 0.385626, 0.209179]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.922526, 0.385626, 0.209179], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}]}],
+              "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2, ",", #3, ",", #4}], "}"}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"True", ",", "True", ",", "True", ",", "True"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}]}], "]"}]& ), 
+      Editable -> True], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{3.836292372869673*^9, 3.836292409952838*^9, 
+  3.8362924832278037`*^9, 3.8368374466577253`*^9, 3.836838357364081*^9, 
+  3.837866830608243*^9, 3.8379709406398964`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"92ae0185-adff-42d6-890f-dc2cd7759913"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Aplikacija v oblaku", "Section"]], "Section",
+ CellChangeTimes->{{3.8362863740963387`*^9, 3.8362863828208895`*^9}, {
+   3.836286417045858*^9, 3.8362864311595483`*^9}, 
+   3.836286779033745*^9},ExpressionUUID->"ec503c62-4ef0-4cae-ab53-\
+78f81038fed7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"narisiPrirastek", "[", "drzava_", "]"}], " ", ":=", " ", 
+  RowBox[{"ListLinePlot", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"leto", ",", " ", 
+        RowBox[{"relativniPrirastek", "[", 
+         RowBox[{"drzava", ",", " ", "leto"}], "]"}]}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"leto", ",", " ", "2000", ",", " ", "2020"}], "}"}]}], "]"}], 
+    ",", " ", 
+    RowBox[{"ImageSize", "\[Rule]", " ", "Large"}], ",", " ", 
+    RowBox[{"PlotLabel", "\[Rule]", " ", "drzava"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.836292684985777*^9, 3.836292830380068*^9}, {
+  3.8362930603592453`*^9, 3.8362931976494427`*^9}, {3.8363784338069873`*^9, 
+  3.8363784363349085`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"84f3f1eb-2086-4dff-a9dd-0e34d9aa19f6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"narisiPrirastek", "[", "\"\<Slovenia\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8362928488455734`*^9, 3.836292859497693*^9}, {
+  3.836292913691862*^9, 3.836292917135344*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"d032a88b-dc7c-4590-bc5c-99e7f69cb075"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+     LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO8x1+u+atOZLNZg/mu8x3mH/WJvThOoX9YL7H
+fAcV7vWSMsGSEL7PfIdjlY+O/isxhqgPmO8QydT6Y2dXMIQfMt/hR9XZzugJ
+yRB+xHyHIK8y7eKpeRB+zHwHiQ2b+b9cL4bwE+Y7rHF0umRjXQbhp8x3eDN1
+ZzP7iVIIP2O+w5b6hbpPDaDqc+Y7nDe6c1z7ej6EXzDfobP7/N18tSwIv2S+
+g7nwuu3awqkQfsV8hyZmK2/eiEQIvwboXqfvsbUZsRB+w3yHw6/MLEOPh0P4
+LfMd/M/rHSrxCYTwO+Y7fFJY8WzeXjcIv2e+w8M/mrOvnrGE8CfMd2CJTjCf
+2q5oDwCocGlB
+      "]]}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{1999.5833333333335`, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->Large,
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox["\"Slovenia\"", TraditionalForm],
+  PlotRange->{{1999.5833333333335`, 2020.}, {-0.00012728214880440306`, 
+   0.005427587111754322}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.836292862650178*^9, 3.83629291931773*^9, {3.836293167364399*^9, 
+   3.836293205542636*^9}, 3.836378453482512*^9, 3.8368374681719613`*^9, {
+   3.8378669721282854`*^9, 3.8378669747311997`*^9}, 3.837867063468624*^9, 
+   3.8378683947734747`*^9, 3.8378696454828997`*^9, 3.837970819335726*^9, 
+   3.8379709482890472`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"a4369df4-6ec0-494e-bbca-55697cd26cbe"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"obrazec", " ", "=", " ", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"\"\<Drzava\>\"", "\[Rule]", " ", "\"\<\>\""}], ",", 
+    RowBox[{
+     RowBox[{"narisiPrirastek", "[", "#Drzava", "]"}], "&"}], ",", 
+    RowBox[{"AppearanceRules", "\[Rule]", " ", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{
+       "\"\<Title\>\"", "\[Rule]", 
+        "\"\<Histogram v odvisnosti od izbrane drzave\>\""}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{
+       "\"\<Description\>\"", "\[Rule]", 
+        "\"\<Vnesite ime drzave v Evropi, za katero zelite prikaz. Po \
+potrditvenem gumbu se bo prikazal histrogram, ki bo prikazal relativno \
+narascanje prebivalstva za doloceno drzavo.\>\""}], ",", 
+       RowBox[{"\"\<SubmitLabel\>\"", "\[Rule]", "\"\<Potrdi\>\""}]}], 
+      "|>"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.836286636612337*^9, 3.8362866484540424`*^9}, {
+   3.8362866859888916`*^9, 3.8362866922997103`*^9}, {3.836286860623047*^9, 
+   3.8362868813875074`*^9}, {3.836286913897303*^9, 3.8362869465257225`*^9}, {
+   3.8362870927571416`*^9, 3.8362871090222363`*^9}, 3.8362871548933764`*^9, {
+   3.836287284694527*^9, 3.8362872869967833`*^9}, {3.8362885693827887`*^9, 
+   3.836288601110535*^9}, {3.8362929309873724`*^9, 3.8362929992142096`*^9}, {
+   3.8362932928817463`*^9, 3.836293293481514*^9}, {3.8368387815453634`*^9, 
+   3.836838862090029*^9}, {3.8368390393160644`*^9, 3.8368390620867124`*^9}, 
+   3.8368406060400815`*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"7db79e4e-2f1f-4dd6-872b-06a565f4df14"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{Forms`FormPage`PackagePrivate`temp$$ = Association[
+   "Drzava" -> Association["Interpreter" -> "", "Input" -> ""]], 
+   Forms`FormPage`PackagePrivate`vals$$ = Association[], 
+   Forms`FormPage`PackagePrivate`valid$$ = False, 
+   Forms`FormPage`PackagePrivate`form2$$ = FormObject[
+    Association["Drzava" -> Association["Interpreter" -> ""]], 
+    Association[], AppearanceRules -> 
+    Association[
+     "Title" -> "Histogram v odvisnosti od izbrane drzave", "Description" -> 
+      "Vnesite ime drzave v Evropi, za katero zelite prikaz. Po potrditvenem \
+gumbu se bo prikazal histrogram, ki bo prikazal relativno narascanje \
+prebivalstva za doloceno drzavo.", "SubmitLabel" -> "Potrdi"]], 
+   Forms`FormPage`PackagePrivate`valid2$$}, 
+   DynamicBox[ToBoxes[
+     With[{Forms`FormPage`PackagePrivate`formpane$ = Panel[
+         Forms`getFormLayout[
+          Forms`PackageScope`bindableForm[
+          Forms`FormPage`PackagePrivate`temp$$, 
+           Evaluate[Forms`FormPage`PackagePrivate`form2$$], None, None -> 
+           Forms`PackageScope`completeAction[
+            Forms`FormPage`PackagePrivate`form2$$, 
+             Forms`FormPage`PackagePrivate`temp$$, 
+             Forms`FormPage`PackagePrivate`vals$$, (
+             Unset[Forms`FormPage`PackagePrivate`vals$$]; 
+             Forms`FormPage`PackagePrivate`vals$$ = #; 
+             Forms`FormPage`PackagePrivate`valid2$$ = Not[
+                TrueQ[Forms`PackageScope`$DontComplete]])& , {
+             AppearanceRules -> 
+              Association[
+               "Title" -> "Histogram v odvisnosti od izbrane drzave", 
+                "Description" -> 
+                "Vnesite ime drzave v Evropi, za katero zelite prikaz. Po \
+potrditvenem gumbu se bo prikazal histrogram, ki bo prikazal relativno \
+narascanje prebivalstva za doloceno drzavo.", "SubmitLabel" -> "Potrdi"]}]]]],
+        Forms`FormPage`PackagePrivate`resultpane$ = Framed[
+         If[
+         Forms`FormPage`PackagePrivate`valid$$ = 
+          And[Forms`FormPage`PackagePrivate`vals$$ =!= Association[], 
+            FreeQ[
+             Values[Forms`FormPage`PackagePrivate`vals$$], 
+             Alternatives[
+              Blank[Failure], Forms`PackageScope`fieldHidden]], 
+            TrueQ[Forms`FormPage`PackagePrivate`valid2$$]], 
+          Unset[Forms`FormPage`PackagePrivate`valid2$$]; Style[
+            ($CellContext`narisiPrirastek[
+             Slot["Drzava"]]& )[Forms`FormPage`PackagePrivate`vals$$], 
+            "Output", "StandardForm"], 
+          Style["Invalid form", "Message"]], FrameStyle -> Lighter[Gray], 
+         Background -> White]}, 
+      Panel[
+       Column[
+        Forms`doLayout[
+        Automatic, Forms`FormPage`PackagePrivate`valid$$, {
+         Forms`FormPage`PackagePrivate`formpane$, 
+          Forms`FormPage`PackagePrivate`resultpane$, 
+          Panel[
+           Item[
+            Row[{
+              Spacer[0], 
+              DefaultButton[
+               Forms`PackageScope`completeAction[
+               Forms`FormPage`PackagePrivate`form2$$, 
+                Forms`FormPage`PackagePrivate`temp$$, 
+                Forms`FormPage`PackagePrivate`vals$$, (
+                Unset[Forms`FormPage`PackagePrivate`vals$$]; 
+                Forms`FormPage`PackagePrivate`vals$$ = #; 
+                Forms`FormPage`PackagePrivate`valid2$$ = Not[
+                   TrueQ[Forms`PackageScope`$DontComplete]])& , {
+                AppearanceRules -> 
+                 Association[
+                  "Title" -> "Histogram v odvisnosti od izbrane drzave", 
+                   "Description" -> 
+                   "Vnesite ime drzave v Evropi, za katero zelite prikaz. Po \
+potrditvenem gumbu se bo prikazal histrogram, ki bo prikazal relativno \
+narascanje prebivalstva za doloceno drzavo.", "SubmitLabel" -> "Potrdi"]}]]}],
+             Alignment -> Right]]}]]]], StandardForm],
+    ImageSizeCache->{1062., {101., 107.}},
+    TrackedSymbols:>{Forms`FormPage`PackagePrivate`vals$$}],
+   DynamicModuleValues:>{}],
+  FormPage[
+   FormObject[
+    Association["Drzava" -> Association["Interpreter" -> ""]], 
+    Association[], AppearanceRules -> 
+    Association[
+     "Title" -> "Histogram v odvisnosti od izbrane drzave", "Description" -> 
+      "Vnesite ime drzave v Evropi, za katero zelite prikaz. Po potrditvenem \
+gumbu se bo prikazal histrogram, ki bo prikazal relativno narascanje \
+prebivalstva za doloceno drzavo.", "SubmitLabel" -> 
+      "Potrdi"]], $CellContext`narisiPrirastek[
+    Slot["Drzava"]]& ],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{
+  3.836286747460575*^9, 3.836286952133271*^9, {3.8362871001838627`*^9, 
+   3.836287112243102*^9}, 3.8362871573001432`*^9, 3.8362872907373943`*^9, 
+   3.8362873786974945`*^9, 3.8362884648873243`*^9, 3.836288572971356*^9, 
+   3.836288603893843*^9, 3.8362910654162455`*^9, 3.836292642318468*^9, {
+   3.836292966689657*^9, 3.836293001945746*^9}, 3.8362932182131557`*^9, {
+   3.8362932754887104`*^9, 3.836293312046485*^9}, {3.8362937470535917`*^9, 
+   3.8362937644023075`*^9}, {3.836378459702091*^9, 3.8363784982692895`*^9}, 
+   3.8363786017339916`*^9, {3.836378638204073*^9, 3.836378653364647*^9}, 
+   3.836837484859767*^9, 3.836838884527288*^9, 3.8368390648901043`*^9, 
+   3.8368406086058846`*^9, 3.8378670702703342`*^9, 3.8378684915326185`*^9, 
+   3.837970953832839*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"4ce6e5b9-3dc9-46dd-ba2c-a708222f7f47"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"obrazec", ",", " ", 
+   RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], "]"}]], "Input",
+ CellLabel->"In[36]:=",ExpressionUUID->"0241f5d5-d3ab-4327-b731-99ba855b71d3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db\"\
+", "https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.8368384485958977`*^9, 3.8368388941891856`*^9, 
+  3.836839069962468*^9, 3.836840613295113*^9, 3.837867091322461*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"ee3bdab0-e9ac-4c3b-b4b5-532b62e82314"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1366, 685},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1350, 669},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
-Magnification:>0.9 Inherited,
+Magnification:>1. Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"29867a23-2611-465d-866c-5b624b9d3974"
@@ -5821,46 +9060,142 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 327, 7, 100, "Subtitle",ExpressionUUID->"4160f1c1-a24a-499d-88f4-102f3325b18d"],
+Cell[580, 22, 423, 8, 110, "Subtitle",ExpressionUUID->"4160f1c1-a24a-499d-88f4-102f3325b18d"],
 Cell[CellGroupData[{
-Cell[932, 33, 168, 3, 60, "Section",ExpressionUUID->"fa8382b6-691e-4fa5-994c-8f66de8c7f04"],
-Cell[1103, 38, 375, 8, 31, "Text",ExpressionUUID->"f67b217e-0eae-443d-a800-9da594ad1c15"],
+Cell[1028, 34, 168, 3, 67, "Section",ExpressionUUID->"fa8382b6-691e-4fa5-994c-8f66de8c7f04"],
+Cell[1199, 39, 375, 8, 34, "Text",ExpressionUUID->"f67b217e-0eae-443d-a800-9da594ad1c15"],
 Cell[CellGroupData[{
-Cell[1503, 50, 1183, 20, 26, "Input",ExpressionUUID->"46a00b91-5f3b-40aa-bd27-48bc30f61979"],
-Cell[2689, 72, 165940, 3227, 533, "Output",ExpressionUUID->"7cb952f8-f9d9-4d9d-b678-72b02453e664"]
+Cell[1599, 51, 1182, 20, 28, "Input",ExpressionUUID->"46a00b91-5f3b-40aa-bd27-48bc30f61979"],
+Cell[2784, 73, 166203, 3230, 559, "Output",ExpressionUUID->"91c387be-74f8-449e-8caa-d7df452c7001"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[168678, 3305, 225, 3, 60, "Section",ExpressionUUID->"546f0118-9e35-4842-abee-341d921bb211"],
-Cell[168906, 3310, 804, 13, 52, "Text",ExpressionUUID->"0a495003-a099-4dce-beec-76fab490e7d9"],
-Cell[169713, 3325, 1149, 29, 45, "Input",ExpressionUUID->"cb97d429-2aa4-4c2b-b89d-2f636f0f76f4"],
+Cell[169036, 3309, 225, 3, 67, "Section",ExpressionUUID->"546f0118-9e35-4842-abee-341d921bb211"],
+Cell[169264, 3314, 852, 13, 56, "Text",ExpressionUUID->"0a495003-a099-4dce-beec-76fab490e7d9"],
+Cell[170119, 3329, 1345, 32, 48, "Input",ExpressionUUID->"cb97d429-2aa4-4c2b-b89d-2f636f0f76f4"],
 Cell[CellGroupData[{
-Cell[170887, 3358, 274, 4, 26, "Input",ExpressionUUID->"74a67686-f238-4c17-8f9b-14c9cd883d43"],
-Cell[171164, 3364, 41825, 824, 344, "Output",ExpressionUUID->"8b849b12-c124-4b6c-a3d1-7c50d7f796aa"]
+Cell[171489, 3365, 876, 12, 28, "Input",ExpressionUUID->"74a67686-f238-4c17-8f9b-14c9cd883d43"],
+Cell[172368, 3379, 42723, 835, 382, "Output",ExpressionUUID->"ecfb3a5a-54f0-48f9-af7a-66950e003b58"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[213038, 4194, 209, 4, 60, "Section",ExpressionUUID->"4a72689d-7f27-4895-a77b-36d8db311418"],
-Cell[213250, 4200, 471, 9, 52, "Text",ExpressionUUID->"fc990603-7fd9-49c0-91b4-cef9f2f5c047"],
-Cell[213724, 4211, 439, 11, 26, "Input",ExpressionUUID->"c7a10296-65d8-4cde-bb76-0a1ebbbb30f2"],
+Cell[215140, 4220, 209, 4, 67, "Section",ExpressionUUID->"4a72689d-7f27-4895-a77b-36d8db311418"],
+Cell[215352, 4226, 471, 9, 56, "Text",ExpressionUUID->"fc990603-7fd9-49c0-91b4-cef9f2f5c047"],
 Cell[CellGroupData[{
-Cell[214188, 4226, 238, 4, 48, "Subsection",ExpressionUUID->"6ad29d6f-a85d-4793-9546-34be14d9dab9"],
-Cell[214429, 4232, 38220, 716, 361, "Output",ExpressionUUID->"5ad2bbeb-a8d5-4734-81c8-6be94da7a72f"],
+Cell[215848, 4239, 185, 3, 53, "Subsection",ExpressionUUID->"f4cbc0a5-b4de-40a6-8ce0-eba786111a19"],
 Cell[CellGroupData[{
-Cell[252674, 4952, 275, 5, 26, "Input",ExpressionUUID->"46e1ae97-3542-4408-8106-b301ebdeee1d"],
-Cell[252952, 4959, 1717, 42, 314, "Output",ExpressionUUID->"e4d44842-ed9b-468c-a8ed-4ff355b8ed21"]
+Cell[216058, 4246, 438, 11, 28, "Input",ExpressionUUID->"c7a10296-65d8-4cde-bb76-0a1ebbbb30f2"],
+Cell[216499, 4259, 38233, 716, 379, "Output",ExpressionUUID->"8472b1f4-37b4-40f8-85e8-f26c1d6a29e1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[254769, 4980, 274, 5, 28, "Input",ExpressionUUID->"46e1ae97-3542-4408-8106-b301ebdeee1d"],
+Cell[255046, 4987, 1861, 44, 345, "Output",ExpressionUUID->"71c3f3ae-5833-4486-b5dd-08ec3a844669"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[254718, 5007, 189, 3, 48, "Subsection",ExpressionUUID->"6aed5aca-83d0-402f-9866-84818ac4295c"],
+Cell[256956, 5037, 189, 3, 53, "Subsection",ExpressionUUID->"6aed5aca-83d0-402f-9866-84818ac4295c"],
 Cell[CellGroupData[{
-Cell[254932, 5014, 518, 12, 26, "Input",ExpressionUUID->"85610edd-76e9-44b3-8410-232b50a5c97a"],
-Cell[255453, 5028, 38158, 715, 361, "Output",ExpressionUUID->"2ee305e1-dce9-440c-9920-86b565718dc7"]
+Cell[257170, 5044, 517, 12, 28, "Input",ExpressionUUID->"85610edd-76e9-44b3-8410-232b50a5c97a"],
+Cell[257690, 5058, 38224, 716, 379, "Output",ExpressionUUID->"b903d510-dadd-4876-a2cf-45c0b99560b4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[293648, 5748, 301, 5, 26, "Input",ExpressionUUID->"6919d64d-463a-4aaf-97bd-6cd8ecb848eb"],
-Cell[293952, 5755, 1585, 41, 331, "Output",ExpressionUUID->"08246c31-397e-4ce6-86e8-9184b5bbb1b0"]
+Cell[295951, 5779, 301, 5, 28, "Input",ExpressionUUID->"6919d64d-463a-4aaf-97bd-6cd8ecb848eb"],
+Cell[296255, 5786, 1736, 44, 364, "Output",ExpressionUUID->"5d31aab8-8ecc-404d-b3e9-5de99ff785d4"]
 }, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[298052, 5837, 316, 5, 67, "Section",ExpressionUUID->"2dfaf3d8-9529-4892-b01e-af4a7b1b7e42"],
+Cell[CellGroupData[{
+Cell[298393, 5846, 14391, 346, 75, "WolframAlphaShortInput",ExpressionUUID->"5798949f-9faf-406f-a199-50559797c223"],
+Cell[312787, 6194, 390, 8, 45, "Output",ExpressionUUID->"fb24f2fc-c69c-4f67-ab39-57920de86316"]
+}, Open  ]],
+Cell[313192, 6205, 408, 7, 34, "Text",ExpressionUUID->"01179fb2-1c3b-4507-ad73-3fd95dccd0cc"],
+Cell[CellGroupData[{
+Cell[313625, 6216, 16632, 387, 76, "WolframAlphaShortInput",ExpressionUUID->"789a6988-f058-4990-a94b-2e605d8f144f"],
+Cell[330260, 6605, 248, 4, 43, "Output",ExpressionUUID->"fe645888-d963-4b32-b7bf-b1c314d1fbe1"]
+}, Open  ]],
+Cell[330523, 6612, 254, 5, 39, "Input",ExpressionUUID->"fae5f443-b2ca-46e8-a243-4bb06f664b52"],
+Cell[330780, 6619, 406, 8, 34, "Text",ExpressionUUID->"51a01588-684a-4c82-8b7c-5e1e4ca4cc7b"],
+Cell[CellGroupData[{
+Cell[331211, 6631, 29356, 643, 87, "WolframAlphaShortInput",ExpressionUUID->"2ac4427e-502f-4eea-b7e1-65ef35055680"],
+Cell[360570, 7276, 295, 5, 43, "Output",ExpressionUUID->"442cc0ed-6d07-4dd0-9aec-44fce7983d60"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[360902, 7286, 274, 6, 44, "Subsubsection",ExpressionUUID->"6f47426f-3cca-4010-84d4-0dd072ccba94"],
+Cell[361179, 7294, 750, 16, 28, "Input",ExpressionUUID->"59c3b7db-618b-4d59-9b4d-f9aa15dba224"],
+Cell[CellGroupData[{
+Cell[361954, 7314, 516, 13, 28, "Input",ExpressionUUID->"6a4b3de3-0461-4485-9c25-0f3faca176d8"],
+Cell[362473, 7329, 1938, 50, 73, "Output",ExpressionUUID->"b4bf5935-7ab0-4f53-9909-682722e7611a"]
+}, Open  ]],
+Cell[364426, 7382, 304, 7, 34, "Text",ExpressionUUID->"cde7e68c-4a2e-4f27-b414-0004700d13a5"],
+Cell[CellGroupData[{
+Cell[364755, 7393, 558, 10, 28, "Input",ExpressionUUID->"bb060c4c-9853-4bf3-8b73-136ac6d7bda4"],
+Cell[365316, 7405, 1934, 47, 364, "Output",ExpressionUUID->"3942936f-21ea-49aa-ae5e-fb2cedb67d36"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[367287, 7457, 623, 15, 28, "Input",ExpressionUUID->"98f05d4e-327c-4664-bdd0-694f59926cc6"],
+Cell[367913, 7474, 3423, 91, 103, "Output",ExpressionUUID->"53a9d659-9ac3-416d-b007-22d738ce17fb"]
+}, Open  ]],
+Cell[371351, 7568, 289, 7, 34, "Text",ExpressionUUID->"534d788d-7678-4a71-a3fd-eb910d0e4545"],
+Cell[CellGroupData[{
+Cell[371665, 7579, 491, 9, 28, "Input",ExpressionUUID->"f1df2bf4-5871-4d52-9516-d2e854db4044"],
+Cell[372159, 7590, 1854, 48, 364, "Output",ExpressionUUID->"4e20fbaa-96bb-4ea4-8b88-74a699c31b8f"]
+}, Open  ]],
+Cell[374028, 7641, 240, 6, 34, "Text",ExpressionUUID->"17d8ac91-f530-4b65-9a9b-f9a3d50d6417"],
+Cell[CellGroupData[{
+Cell[374293, 7651, 502, 11, 28, "Input",ExpressionUUID->"d67df41d-7fed-4c99-8223-f8a804f29dff"],
+Cell[374798, 7664, 12553, 264, 369, "Output",ExpressionUUID->"22363c4b-d53b-49d1-b96d-e65d28efa8b2"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[387412, 7935, 233, 4, 67, "Section",ExpressionUUID->"9575ac0c-55a1-4fc0-a565-e880f54b4d80"],
+Cell[CellGroupData[{
+Cell[387670, 7943, 300, 7, 53, "Subsection",ExpressionUUID->"ea02ee7f-0d65-4394-a05a-1f0298c02629"],
+Cell[387973, 7952, 693, 17, 28, "Input",ExpressionUUID->"b1e61bfe-5447-433b-bab7-ed519846eb23"],
+Cell[CellGroupData[{
+Cell[388691, 7973, 196, 3, 28, "Input",ExpressionUUID->"8385e92b-4804-43bb-8083-ba0f15fc8de9"],
+Cell[388890, 7978, 248, 3, 32, "Output",ExpressionUUID->"158e1bb0-a8cd-46e5-8f2f-0ad1c00cb0ac"]
+}, Open  ]],
+Cell[389153, 7984, 259, 6, 34, "Text",ExpressionUUID->"06bdec4d-35ef-452a-8f5f-1be372b2aea5"],
+Cell[CellGroupData[{
+Cell[389437, 7994, 574, 14, 28, "Input",ExpressionUUID->"6f0928e7-8e86-42dd-bf6f-b917b2244ec6"],
+Cell[390014, 8010, 2053, 50, 71, "Output",ExpressionUUID->"7edb536f-2fd9-4c2c-9154-e8b815a3efdf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[392104, 8065, 525, 13, 28, "Input",ExpressionUUID->"2b9f1824-ba44-400a-b703-d90fada56171"],
+Cell[392632, 8080, 2473, 69, 71, "Output",ExpressionUUID->"c14e6d9b-7990-4b8f-9a64-decb631e7b0b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[395142, 8154, 520, 12, 28, "Input",ExpressionUUID->"92a579cc-260c-411b-b0b3-1e82ab1486b6"],
+Cell[395665, 8168, 2129, 53, 71, "Output",ExpressionUUID->"1a1331f4-ed8c-4ffd-af45-7650df9250a1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[397831, 8226, 527, 13, 28, "Input",ExpressionUUID->"3255b7a6-5b15-4806-8830-d25d21bb0c7b"],
+Cell[398361, 8241, 2055, 48, 71, "Output",ExpressionUUID->"bbf58c86-96ff-48bb-9551-96807159365b"]
+}, Open  ]],
+Cell[400431, 8292, 340, 7, 34, "Text",ExpressionUUID->"8a017b01-a88e-43ff-a360-4cc91ee9ea9b"],
+Cell[CellGroupData[{
+Cell[400796, 8303, 767, 18, 48, "Input",ExpressionUUID->"891ed360-1bf6-4ab1-baac-35329bc6b6a5"],
+Cell[401566, 8323, 21631, 451, 236, "Output",ExpressionUUID->"92ae0185-adff-42d6-890f-dc2cd7759913"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[423258, 8781, 274, 4, 67, "Section",ExpressionUUID->"ec503c62-4ef0-4cae-ab53-78f81038fed7"],
+Cell[423535, 8787, 850, 19, 28, "Input",ExpressionUUID->"84f3f1eb-2086-4dff-a9dd-0e34d9aa19f6"],
+Cell[CellGroupData[{
+Cell[424410, 8810, 279, 4, 28, "Input",ExpressionUUID->"d032a88b-dc7c-4590-bc5c-99e7f69cb075"],
+Cell[424692, 8816, 2139, 53, 377, "Output",ExpressionUUID->"a4369df4-6ec0-494e-bbca-55697cd26cbe"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[426868, 8874, 1555, 30, 86, "Input",ExpressionUUID->"7db79e4e-2f1f-4dd6-872b-06a565f4df14"],
+Cell[428426, 8906, 5492, 107, 227, "Output",ExpressionUUID->"4ce6e5b9-3dc9-46dd-ba2c-a708222f7f47"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[433955, 9018, 230, 4, 28, "Input",ExpressionUUID->"0241f5d5-d3ab-4327-b731-99ba855b71d3"],
+Cell[434188, 9024, 613, 12, 35, "Output",ExpressionUUID->"ee3bdab0-e9ac-4c3b-b4b5-532b62e82314"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
