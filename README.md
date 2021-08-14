@@ -3,7 +3,7 @@ na Fakulteti za matematiko in fiziko, Univerza v Ljubljani.
 
 Za projekt bom uporabila računalniški program ***Mathematica***.
 
-# Prebivalstvo Slovenije
+# Prebivalstvo Slovenije in drugih držav
 
 V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad prebivalstva med leti 2008 - 2021. 
 
