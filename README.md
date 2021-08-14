@@ -5,7 +5,7 @@ Za projekt bom uporabila računalniški program ***Mathematica***.
 
 # Prebivalstvo Slovenije in drugih držav
 
-V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad prebivalstva med leti 2008 - 2021. 
+V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad prebivalstva med leti 2008 - 2021. Nato bom še izvedla analozio prebivalstva različnih držav, njihov relativni prirastek...
 
 ## Načrt projekta
 1. Pridobivanje podatkov iz **STATISTIČNEGA URADA REPUBLIKE SLOVENIJE**
