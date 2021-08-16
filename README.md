@@ -20,6 +20,6 @@ V tem projektu bom analizirala podatke, ki vključujejo spol in rast ali upad pr
 https://www.wolframcloud.com/obj/f3e5373e-589f-4880-8f24-7774f768b8db
 
 ## Videoposnetek predstavitve:
-https://youtu.be/BehmdmNmtb8
+https://youtu.be/sbAgNe2k7S4
  
 Pripravila: *Vanja Stanojević*
